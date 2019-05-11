@@ -94,7 +94,7 @@ def sort_sentiments(source, related_articles):
     """
     for article in related_articles:
         pass
-    return list(related.keys())
+    return list(related_articles.keys())
 
 
 @app.route('/')
