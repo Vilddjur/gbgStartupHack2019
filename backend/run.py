@@ -191,7 +191,13 @@ def coffee():
     template_sentiments = dict()
     for item in source_sentiment['IBM']:
         template_sentiments[item['tone_name']] = item['score']
-    return templ.render(template_sentiments=template_sentiments, template_articles=rank_related_arts)
+
+    return templ.render(
+        template_sentiments=template_sentiments,
+        template_articles=rank_related_arts,
+        polarity=source_sentiment['aylien']['polarity'],
+        subjectivity=source_sentiment['aylien']['subjectivity']
+    )
 
     #return news.news_to_html(ret)
 
