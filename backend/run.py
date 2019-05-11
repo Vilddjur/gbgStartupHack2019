@@ -6,6 +6,7 @@ import newspaper
 
 from sental.sentimental_analyser import SentimentalAnalyser
 from testing_stuff import mock
+import newsfetch.news
 
 
 app = flask.Flask(__name__)
@@ -26,7 +27,7 @@ def get_related_articles(url):
 
     Return: list[str]
     """
-    raise NotImplementedError
+    return news.get_related_articles(url)
 
 
 def parse_article(url):
