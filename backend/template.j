@@ -51,7 +51,7 @@
   </figure>
   <div class="media-content">
     <div class="content">
-      <a href="{{item['url']}}">
+      <a href="{{item['url']}}" target="_blank">
         {{item['title']}}
       </a>
     </div>
