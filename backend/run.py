@@ -1,4 +1,5 @@
 import flask
+from sental.sentimental_analyser import SentimentalAnalyser
 
 
 app = flask.Flask(__name__)
@@ -40,7 +41,6 @@ def get_sentiment(text):
     sent_al = SentimentalAnalyser()
     sentiment = sent_al.get_sentiment(text)
     return sentiment
-    raise NotImplementedError
 
 
 

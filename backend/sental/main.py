@@ -1,18 +1,4 @@
-import os
-import json
-from aylienapiclient import textapi
-
-
-class SentimentalAnalyser:
-    def __init__(self):
-        conf_path = os.path.join(os.path.dirname(__file__), 'conf.json')
-        with open(conf_path) as f_h:
-            conf = json.load(f_h)
-        self.client = textapi.Client(conf['app_id'], conf['app_key'])
-
-    def get_sentiment(self, text):
-        return self.client.Sentiment({'text': text})
-
+from .sentimental_analyser import SentimentalAnalyser
 
 def main():
     sent_al = SentimentalAnalyser()
