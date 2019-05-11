@@ -181,6 +181,7 @@ def coffee():
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
     rank_related_arts = []
     for art in ranked_articles:
+        source_article['related_articles'][art]['tones'] = sentiments[art]['IBM']
         rank_related_arts.append(source_article['related_articles'][art])
     ret = {
         "currentArticle" : "",
@@ -190,7 +191,6 @@ def coffee():
     template_sentiments = dict()
     for item in source_sentiment['IBM']:
         template_sentiments[item['tone_name']] = item['score']
-
     return templ.render(template_sentiments=template_sentiments, template_articles=rank_related_arts)
 
     #return news.news_to_html(ret)

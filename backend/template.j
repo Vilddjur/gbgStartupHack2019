@@ -55,6 +55,43 @@
         {{item['title']}}
       </a>
     </div>
+    {% for tone in item['tones'] %}
+      {% if tone["tone_id"] == "anger" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Anger: {{ tone["score"] *100 }} %">
+            <i class="fas fa-angry"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "fear" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Fear: {{ tone["score"] *100 }} %">
+            <i class="fas fa-ghost"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "joy" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Joy: {{ tone["score"] *100 }} %">
+            <i class="fas fa-smile"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "sadness" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Sadness: {{ tone["score"] *100 }} %">
+            <i class="fas fa-sad-tear"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "analytical" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Analytical: {{ tone["score"] *100 }} %">
+            <i class="fas fa-diagnoses"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "confident" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Confident: {{ tone["score"] *100 }} %">
+            <i class="fas fa-clipboard-check"></i>
+        </span>
+      {% endif %}
+      {% if tone["tone_id"] == "tentative" %}
+        <span class="icon has-text-warning tooltip is-tooltip-top" data-tooltip="Tentative: {{ tone["score"] *100 }} %">
+            <i class="fas fa-history"></i>
+        </span>
+      {% endif %}
+    {% endfor %}
   </div>
 </article>
 {% endfor %}
