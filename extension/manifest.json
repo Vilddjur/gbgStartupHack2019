@@ -18,11 +18,14 @@
     "scripts": ["background.js"],
     "persistent": false
   },
+  "icons": {
+    "32": "res/news-disabled.png"
+  },
   "page_action": {
-          "default_icon": {                    // optional
-            "32": "res/news.png"            // optional
-          },
-          "default_title": "Anti fake news",      // optional; shown in tooltip
-          "default_popup": "popup.html"        // optional
-        }
+    "default_icon": {                    // optional
+      "32": "res/news.png"            // optional
+    },
+    "default_title": "Anti fake news",      // optional; shown in tooltip
+    "default_popup": "popup.html"        // optional
+  }
 }

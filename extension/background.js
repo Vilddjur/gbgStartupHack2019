@@ -10,4 +10,4 @@ chrome.webNavigation.onCommitted.addListener(function() {
   doInCurrentTab(function(tab) {
     chrome.pageAction.show(tab.id, function(){});
   });
-}, {url: [{urlMatches: 'https://www.breitbart.com/'}, {urlMatches: 'https://edition.cnn.com/'}]});
+}, {url: [{urlMatches: 'https://www.breitbart.com/'}, {urlMatches: 'https://edition.cnn.com/'}, {urlMatches: 'https://theguardian.com/'}]});
