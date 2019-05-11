@@ -153,7 +153,10 @@ def coffee():
         article = dict()
         if related_url not in cached_articles:
             print('ARTICLE_CACHE_MISS: {}'.format(related_url))
-            article = parse_article(related_url)
+            try:
+                article = parse_article(related_url)
+            except:
+                continue
             query = article['title']
 
             article.update({'related_articles': get_related_articles(query)})
