@@ -46,6 +46,8 @@
 {% endif %}
 </p>
 
+<br/>
+
 <p>
 <span class="tag {% if polarity == 'negative' %} is-danger
                  {% elif polarity == 'positive' %} is-link
@@ -66,11 +68,11 @@
       <img src="{{ item['image']['thumbnail']}}">
     </p>
     <p>
-      <span title="{{ item['provider']['name'] }}" class="tag is-dark" >{{ item['provider']['name'] | truncate(10) }}</span>
+      <span title="{{ item['provider']['name'] }}" class="tag is-light" >{{ item['provider']['name'] | truncate(10) }}</span>
     </p>
   </figure>
 
-  <div class="media-content">
+  <div style="overflow:hidden;" class="media-content">
 
     <div class="content is-size-6">
       <a href="{{ item['url'] }}" target="_blank">
