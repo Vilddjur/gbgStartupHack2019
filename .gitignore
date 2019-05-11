@@ -187,3 +187,12 @@ dmypy.json
 # Pyre type checker
 
 # End of https://www.gitignore.io/api/flask,python
+#
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+tags
+
