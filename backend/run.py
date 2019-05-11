@@ -122,7 +122,7 @@ def coffee():
     with open('articles_caching.json') as f_h:
         cached_articles = json.load(f_h)
     if url not in cached_articles:
-        print('CACHE_MISS: {}'.format(url))
+        print('ARTICLE_CACHE_MISS: {}'.format(url))
         source_article = parse_article(url)
         query = source_article['title']
 
@@ -131,20 +131,23 @@ def coffee():
         with open('articles_caching.json', 'w') as f_h:
             json.dump(cached_articles, f_h, indent=4)
     else:
-        print('CACHE_HIT')
+        print('ARTICLE_CACHE_HIT: {}'.format(url))
         source_article = cached_articles[url]
 
     source_sentiment = dict()
     if source_article['title'] not in cached_articles:
+        print('SENTIMENT_CACHE_MISS: {}'.format(source_article['title']))
         source_sentiment = get_sentiment(source_article['text'])
         cached_articles.update({source_article['title']: source_sentiment})
     else:
+        print('SENTIMENT_CACHE_HIT: {}'.format(source_article['title']))
         source_sentiment = cached_articles[source_article['title']]
 
     sentiments = dict()
     for related_url in source_article['related_articles']:
         article = dict()
         if related_url not in cached_articles:
+            print('ARTICLE_CACHE_MISS: {}'.format(related_url))
             article = parse_article(related_url)
             query = article['title']
 
@@ -153,14 +156,17 @@ def coffee():
             with open('articles_caching.json', 'w') as f_h:
                 json.dump(cached_articles, f_h, indent=4)
         else:
-            article = cached_articles[related_url]
+            print('ARTICLE_CACHE_HIT: {}'.format(related_url))
+            article = cached_articles[related_url] 
 
         if article['title'] not in cached_articles:
+            print('SENTIMENT_CACHE_MISS: {}'.format(article['title']))
             sentiments[related_url] = get_sentiment(article['text'])
             cached_articles.update({article['title']: sentiments[related_url]})
             with open('articles_caching.json', 'w') as f_h:
                 json.dump(cached_articles, f_h, indent=4)
         else:
+            print('SENTIMENT_CACHE_HIT: {}'.format(article['title']))
             sentiments[related_url] = cached_articles[article['title']]
 
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
