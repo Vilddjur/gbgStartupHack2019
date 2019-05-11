@@ -47,24 +47,38 @@ def parse_article(url):
     }
 
 
-def get_sentiment(text):
+def get_sentiment(text, api='IBM'):
     """
     Given text, return sentiments
 
     Arguments:
         text(str): string with article content
+        api(str): Which api to use IBM/aylien,
+                    WARNING: changes dictionary structure
 
     Return:
-        dict: 
+        api == IBM:
             {
-                'polarity': 'positive/neutral/negative',
-                'subjectivity': 'subjective/objective',
-                'text': 'analysed text',
-                'polarity_confidence': 0.0 - 1.0,
-                'subjectivity_confidence': 0.0 - 1.0
+                'document_tone': {
+                    'tones': [{
+                        'score': 0.673332,
+                        'tone_id': 'joy',
+                        'tone_name': 'Joy'
+                    }]
+                }
             }
+        
+        api == aylient:
+            dict: 
+                {
+                    'polarity': 'positive/neutral/negative',
+                    'subjectivity': 'subjective/objective',
+                    'text': 'analysed text',
+                    'polarity_confidence': 0.0 - 1.0,
+                    'subjectivity_confidence': 0.0 - 1.0
+                }
     """
-    sent_al = SentimentalAnalyser()
+    sent_al = SentimentalAnalyser(api)
     sentiment = sent_al.get_sentiment(text)
 
     return sentiment
