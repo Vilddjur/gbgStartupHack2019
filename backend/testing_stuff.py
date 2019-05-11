@@ -1,7 +1,6 @@
 import json
 from newsfetch import news
 
-<<<<<<< HEAD
 def news_to_html(news):
     ret ="<ul class='news-results'>"
     for art in news["relatedArticles"]:
@@ -20,8 +19,6 @@ def news_to_html(news):
         ret += "</li>"
     ret += "</ul>"
     return ret
-=======
->>>>>>> 687e8891d0c08a52405b124c62e2625b774abf72
 
 def mock():
     tone = {
