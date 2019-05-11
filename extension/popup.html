@@ -9,53 +9,70 @@
     <script src="popup.js" type="text/javascript"></script>
     <link rel="stylesheet" href="popup.css">
 
-    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" defer></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
   </head>
   <body id="results">
+
     <div class="has-text-centered">
-    <div class="columns">
+    <div class="columns sentiment-column">
         <div class="column">
-            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Tooltip Text">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Anger: 30%">
                 <i class="fas fa-3x fa-angry"></i>
             </span>
         </div>
         <div class="column">
-            <span class="icon has-text-dark">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Fear: 15%">
                 <i class="fas fa-3x fa-ghost"></i>
             </span>
         </div>
         <div class="column">
-            <span class="icon has-text-dark">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Joy: 60%">
                 <i class="fas fa-3x fa-smile"></i>
             </span>
         </div>
-    </div>
-    <div class="columns">
-
         <div class="column">
-            <span class="icon has-text-dark">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Sadness: 32%">
                 <i class="fas fa-3x fa-sad-tear"></i>
             </span>
         </div>
-        <div class="column">
-            <span class="icon has-text-dark">
+    </div>
+
+    <div class="columns sentiment-column">
+        <div class="column is-one-quarter is-offset-1">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Analytical: 5%">
                 <i class="fas fa-3x fa-diagnoses"></i>
             </span>
         </div>
-        <div class="column">
-            <span class="icon has-text-dark">
+        <div class="column is-one-quarter">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Confident: 0%">
                 <i class="fas fa-3x fa-clipboard-check"></i>
             </span>
         </div>
-        <div class="column">
-            <span class="icon has-text-dark">
+        <div class="column is-one-quarter">
+            <span class="icon has-text-dark tooltip is-tooltip-bottom" data-tooltip="Tentative: 88%">
                 <i class="fas fa-3x fa-history"></i>
             </span>
         </div>
     </div>
     </div>
+
+    <hr/>
+
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          Lorem Ipsum
+        </div>
+      </div>
+    </article>
+
   </body>
 </html>

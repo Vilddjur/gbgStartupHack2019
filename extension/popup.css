@@ -8,3 +8,7 @@ body {
 th, td {
   padding: 10px;
 }
+
+.sentiment-column {
+    margin-top: 20px;
+}

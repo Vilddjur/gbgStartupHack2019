@@ -3,10 +3,11 @@
 import flask
 import json
 import newspaper
+from flask import request
 
 from sental.sentimental_analyzer import SentimentalAnalyzer
 from testing_stuff import mock
-import newsfetch.news
+from newsfetch import news
 
 
 app = flask.Flask(__name__)
@@ -21,13 +22,13 @@ def is_website_news_source(url):
     raise NotImplementedError
 
 
-def get_related_articles(url):
+def get_related_articles(query):
     """
     Given a URL, return list of related articles
 
     Return: list[str]
     """
-    return news.get_related_articles(url)
+    return news.get_related_articles(query)
 
 
 def parse_article(url):
@@ -41,9 +42,11 @@ def parse_article(url):
     article.parse()
 
     return {
+        'title': article.title,
         'authors': article.authors,
         'publishDate': article.publish_date,
-        'text': article.text
+        'text': article.text,
+        'url': url
     }
 
 
@@ -81,6 +84,16 @@ def get_sentiment(text):
     return {'IBM': ibm_sentiment, 'aylien': aylien_sentiment}
 
 
+def sort_sentiments(source, related):
+    """
+    Return sorted urls for related articles based on how different sentiment is
+    compared with source article.
+
+    Args:
+        source: Sentiment of 
+    """
+    return list(related.keys())
+
 
 @app.route('/')
 def index():
@@ -100,8 +113,18 @@ def coffee():
     """
     url = request.form.get('url')
 
-    article = parse_article(url)
-    sentiment = get_sentiment(article['text'])
+    source_article = parse_article(url)
+    query = source_article['title']
+    related_articles = get_related_articles(query)
+
+    source_sentiment = get_sentiment(source_article['text'])
+    sentiments = {}
+    for related_url in related_articles:
+        article = {'url': related_url} #parse_article(related_url)
+        sentiments[article['url']] = 1#get_sentiment(article['text'])
+
+    ranked_articles = sort_sentiments(source_sentiment, sentiments)
+    return '\n'.join(ranked_articles)+'\n'
 
 
 @app.route('/api/beer', methods=['POST'])
