@@ -196,3 +196,5 @@ Session.vim
 *~
 tags
 
+
+backend/articles_caching.json
