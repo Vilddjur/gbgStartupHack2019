@@ -68,7 +68,7 @@
   <div class="media-content">
     <div class="content">
       <a href="{{item['url']}}" target="_blank">
-        {{item['title']}}
+        <b>{{item['provider']['name']}}</b>: {{item['title']}}
       </a>
     </div>
     {% for tone in item['tones'] %}
