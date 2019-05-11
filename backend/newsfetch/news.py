@@ -28,7 +28,7 @@ def get_related_articles(query, log=False):
     def logprint(text):
         if log: print(text)
 
-    req = ('https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/NewsSearchAPI?autoCorrect=true&pageNumber=1&pageSize=10&'
+    req = ('https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/NewsSearchAPI?autoCorrect=true&pageNumber=1&pageSize=3&'
             'q='+'+'.join(query.split())+'&'
             'safeSearch=true')
 
