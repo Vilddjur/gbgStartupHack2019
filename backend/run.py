@@ -120,7 +120,7 @@ def coffee():
     source_sentiment = get_sentiment(source_article['text'])
     sentiments = {}
     for related_url in related_articles:
-        article = {'url': 'google.se'} #parse_article(related_url)
+        article = {'url': related_url} #parse_article(related_url)
         sentiments[article['url']] = 1#get_sentiment(article['text'])
 
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
