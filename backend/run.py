@@ -35,8 +35,19 @@ def get_article_text(url):
 def get_sentiment(text):
     """
     Given text, return sentiments
+    
+    Arguments:
+        text(str): string with article content
 
-    Return: <not decided>
+    Return:
+        dict: 
+            {
+                'polarity': 'positive/neutral/negative',
+                'subjectivity': 'subjective/objective',
+                'text': 'analysed text',
+                'polarity_confidence': 0.0 - 1.0,
+                'subjectivity_confidence': 0.0 - 1.0
+            }
     """
     sent_al = SentimentalAnalyser()
     sentiment = sent_al.get_sentiment(text)
