@@ -60,50 +60,55 @@
 
 {% for item in template_articles %}
 <article class="media">
+
   <figure class="media-left">
     <p class="image is-64x64">
-      <img style="z-index=-1" src="{{ item['urlToImage']}}">
+      <img src="{{ item['image']['thumbnail']}}">
     </p>
+    <p> <span class="tag is-dark" >{{ item['provider']['name'] }}</span> </p>
   </figure>
+
   <div class="media-content">
-    <div class="content">
-      <a href="{{item['url']}}" target="_blank">
-        <b>{{item['provider']['name']}}</b>: {{item['title']}}
+
+    <div class="content is-size-6">
+      <a href="{{ item['url'] }}" target="_blank">
+        {{ item['title'] }}
       </a>
     </div>
+
     {% for tone in item['tones'] %}
       {% if tone["tone_id"] == "anger" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Anger: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Anger: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-angry"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "fear" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Fear: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Fear: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-ghost"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "joy" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Joy: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Joy: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-smile"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "sadness" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Sadness: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Sadness: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-sad-tear"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "analytical" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Analytical: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Analytical: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-diagnoses"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "confident" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Confident: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Confident: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-clipboard-check"></i>
         </span>
       {% endif %}
       {% if tone["tone_id"] == "tentative" %}
-        <span class="icon has-text-dark tooltip is-tooltip-top" data-tooltip="Tentative: {{ ((tone["score"]*100) | round | int) }} %">
+        <span class="icon has-text-dark tooltip is-tooltip-right" data-tooltip="Tentative: {{ ((tone["score"]*100) | round | int) }} %">
             <i class="fas fa-history"></i>
         </span>
       {% endif %}
