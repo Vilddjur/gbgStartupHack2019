@@ -3,9 +3,17 @@ import json
 def news_to_html(news):
     ret ="<ul class='news-results'>"
     for art in news["relatedArticles"]:
-        ret +="<li class='single-news-item'>"
-        ret += "<img class='news-image' src='"+ art["urlToImage"] + "' />"
+        ret += "<li class='single-news-item'>"
+        ret += "<article class='media'>"
+        ret += "<figure class='media-left'>"
+        ret += "<img class='news-image' src='" + currentArticle["urlToImage"] + "' />"
+        ret += "</figure>"
+        ret += "<div class='media-content'>"
+        ret += "<div class='content'>"
         ret += "<h3 class='news-title'><a href='"+art["url"]+"'>" + art["title"] + "</a></h3>"
+        ret += "</div>"
+        ret += "</div>"
+        ret += "</article>"
         #TODO: add tones
         ret += "</li>"
     ret += "</ul>"
