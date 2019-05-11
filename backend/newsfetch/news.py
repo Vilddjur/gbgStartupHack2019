@@ -8,7 +8,7 @@ news_key='1b89d91f976447cb89c3310dda3143ec'
 OK=200
 
 
-def get_related_articles(source_url, log=False):
+def get_related_articles(query, log=False):
     """
     Given a URL, return list of related articles.
 
@@ -17,8 +17,6 @@ def get_related_articles(source_url, log=False):
     def logprint(text):
         if log: print(text)
 
-    title = 'bitcoin'
-    query = title
     req = ('https://newsapi.org/v2/everything?'
             'q='+query+'&'
             'apiKey='+news_key)

@@ -84,7 +84,7 @@ def get_sentiment(text):
     return {'IBM': ibm_sentiment, 'aylien': aylien_sentiment}
 
 
-def sort_sentiments(source, related):
+def sort_sentiments(source, related_articles):
     """
     Return sorted urls for related articles based on how different sentiment is
     compared with source article.
@@ -92,6 +92,8 @@ def sort_sentiments(source, related):
     Args:
         source: Sentiment of 
     """
+    for article in related_articles:
+        pass
     return list(related.keys())
 
 
@@ -105,6 +107,7 @@ def test_sentimental():
     with open('article.txt') as f_h:
         text = f_h.read()
     return str(json.dumps(get_sentiment(text), indent=4))
+
 
 @app.route('/api/coffee', methods=['POST'])
 def coffee():
