@@ -1,0 +1,22 @@
+{
+  "name": "Project Coffeebeans",
+  "version": "0.1",
+  "description": "Suggest related arcticles",
+  "manifest_version": 1,
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+          "default_icon": {                    // optional
+            "32": "res/news.png"            // optional
+          },
+          "default_title": "Anti fake news",      // optional; shown in tooltip
+          "default_popup": "popup.html"        // optional
+        }
+}
