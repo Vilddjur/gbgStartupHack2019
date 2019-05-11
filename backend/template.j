@@ -1,6 +1,6 @@
 <div class="has-text-centered">
 
-<h2>We found some bias</h2>
+<h2 class="popup-heading">We found some bias</h2>
 
 <p>
 {% if template_sentiments.get('Anger', False) %}
@@ -56,7 +56,7 @@
 
 <hr/>
 
-<h2>Verify with these sources</h2>
+<h2 class="popup-heading">Verify with these sources</h2>
 
 {% for item in template_articles %}
 <article class="media">
@@ -65,7 +65,9 @@
     <p class="image is-64x64">
       <img src="{{ item['image']['thumbnail']}}">
     </p>
-    <p> <span class="tag is-dark" >{{ item['provider']['name'] }}</span> </p>
+    <p>
+      <span title="{{ item['provider']['name'] }}" class="tag is-dark" >{{ item['provider']['name'] | truncate(10) }}</span>
+    </p>
   </figure>
 
   <div class="media-content">
