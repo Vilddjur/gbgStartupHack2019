@@ -49,9 +49,9 @@
 <p>
 <span class="tag {% if polarity == 'negative' %} is-danger
                  {% elif polarity == 'positive' %} is-link
-                 {% else %} is-black
+                 {% else %} is-dark
                  {% endif %}">Polarity: {{ polarity }}</span>
-<span class="tag is-black">Subjectivity: {{ subjectivity }}</span>
+<span class="tag is-dark">Subjectivity: {{ subjectivity }}</span>
 </p>
 
 <hr/>
