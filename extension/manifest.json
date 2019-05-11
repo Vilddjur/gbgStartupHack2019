@@ -8,6 +8,12 @@
     "tabs",
     "http://*/*"
   ],
+  "content_scripts": [
+   {
+    "matches": ["https://*/*"],
+    "js": ["libs/jquery-3.4.1.min.js"]
+   }
+  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
