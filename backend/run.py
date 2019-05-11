@@ -4,6 +4,43 @@ import flask
 app = flask.Flask(__name__)
 
 
+def is_website_news_source(url):
+    """
+    Given a website, return if website is a news source.
+
+    Return: bool
+    """
+    raise NotImplementedError
+
+
+def get_related_articles(url):
+    """
+    Given a URL, return list of related articles
+
+    Return: list[str]
+    """
+    raise NotImplementedError
+
+
+def get_article_text(url):
+    """
+    Given a URL, return the article text
+
+    Return: str
+    """
+    raise NotImplementedError
+
+
+def get_sentiment(text):
+    """
+    Given text, return sentiments
+
+    Return: <not decided>
+    """
+    raise NotImplementedError
+
+
+
 @app.route('/')
 def index():
     return 'Hello world'
