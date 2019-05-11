@@ -162,7 +162,7 @@ def coffee():
                 json.dump(cached_articles, f_h, indent=4)
         else:
             print('ARTICLE_CACHE_HIT: {}'.format(related_url))
-            article = cached_articles[related_url] 
+            article = cached_articles[related_url]
 
         if article['title'] not in cached_articles:
             print('SENTIMENT_CACHE_MISS: {}'.format(article['title']))
@@ -177,7 +177,7 @@ def coffee():
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
     rank_related_arts = []
     for art in ranked_articles:
-        rank_related_arts.append(related_articles[art])
+        rank_related_arts.append(source_article['related_articles'][art])
     print(rank_related_arts)
     ret = {
         "currentArticle" : "",
