@@ -25,4 +25,5 @@ chrome.webNavigation.onCommitted.addListener(function() {
           {urlMatches: 'https://eu.usatoday.com'},
           {urlMatches: 'https://abcnews.go.com/'},
           {urlMatches: 'https://thehill.com/'},
+          {urlMatches: 'https://www.npr.org/'},
           {urlMatches: 'https://www.theguardian.com/'}]});
