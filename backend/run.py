@@ -3,8 +3,9 @@
 import flask
 import json
 import newspaper
-from flask import request
+import jinja2
 
+from flask import request, abort
 from sental.sentimental_analyzer import SentimentalAnalyzer
 from testing_stuff import mock
 from newsfetch import news
@@ -44,7 +45,7 @@ def parse_article(url):
     return {
         'title': article.title,
         'authors': article.authors,
-        'publishDate': article.publish_date,
+        'publishDate': str(article.publish_date),
         'text': article.text,
         'url': url
     }
@@ -90,11 +91,11 @@ def sort_sentiments(source, related_articles):
     compared with source article.
 
     Args:
-        source: Sentiment of 
+        source: Sentiment of
     """
     for article in related_articles:
         pass
-    return list(related.keys())
+    return list(related_articles.keys())
 
 
 @app.route('/')
@@ -114,20 +115,84 @@ def coffee():
     """
     Production endpoint.
     """
-    url = request.form.get('url')
+    templ = jinja2.Template(open('template.j', 'r').read())
+    url = request.form.get('url', None)
 
-    source_article = parse_article(url)
-    query = source_article['title']
-    related_articles = get_related_articles(query)
+    if not url:
+        abort(400)
 
-    source_sentiment = get_sentiment(source_article['text'])
-    sentiments = {}
-    for related_url in related_articles:
-        article = {'url': related_url} #parse_article(related_url)
-        sentiments[article['url']] = 1#get_sentiment(article['text'])
+    source_article = dict()
+    related_articles = list()
+
+    with open('articles_caching.json') as f_h:
+        cached_articles = json.load(f_h)
+    if url not in cached_articles:
+        print('ARTICLE_CACHE_MISS: {}'.format(url))
+        source_article = parse_article(url)
+        query = source_article['title']
+
+        source_article.update({'related_articles': get_related_articles(query)})
+        cached_articles.update({url: source_article})
+        with open('articles_caching.json', 'w') as f_h:
+            json.dump(cached_articles, f_h, indent=4)
+    else:
+        print('ARTICLE_CACHE_HIT: {}'.format(url))
+        source_article = cached_articles[url]
+
+    source_sentiment = dict()
+    if source_article['title'] not in cached_articles:
+        print('SENTIMENT_CACHE_MISS: {}'.format(source_article['title']))
+        source_sentiment = get_sentiment(source_article['text'])
+        cached_articles.update({source_article['title']: source_sentiment})
+    else:
+        print('SENTIMENT_CACHE_HIT: {}'.format(source_article['title']))
+        source_sentiment = cached_articles[source_article['title']]
+
+    sentiments = dict()
+    for related_url in source_article['related_articles']:
+        article = dict()
+        if related_url not in cached_articles:
+            print('ARTICLE_CACHE_MISS: {}'.format(related_url))
+            try:
+                article = parse_article(related_url)
+            except:
+                continue
+            query = article['title']
+
+            article.update({'related_articles': get_related_articles(query)})
+            cached_articles.update({related_url: article})
+            with open('articles_caching.json', 'w') as f_h:
+                json.dump(cached_articles, f_h, indent=4)
+        else:
+            print('ARTICLE_CACHE_HIT: {}'.format(related_url))
+            article = cached_articles[related_url]
+
+        if article['title'] not in cached_articles:
+            print('SENTIMENT_CACHE_MISS: {}'.format(article['title']))
+            sentiments[related_url] = get_sentiment(article['text'])
+            cached_articles.update({article['title']: sentiments[related_url]})
+            with open('articles_caching.json', 'w') as f_h:
+                json.dump(cached_articles, f_h, indent=4)
+        else:
+            print('SENTIMENT_CACHE_HIT: {}'.format(article['title']))
+            sentiments[related_url] = cached_articles[article['title']]
 
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
-    return '\n'.join(ranked_articles)+'\n'
+    rank_related_arts = []
+    for art in ranked_articles:
+        rank_related_arts.append(source_article['related_articles'][art])
+    ret = {
+        "currentArticle" : "",
+        "relatedArticles": rank_related_arts
+    }
+
+    template_sentiments = dict()
+    for item in source_sentiment['IBM']:
+        template_sentiments[item['tone_name']] = item['score']
+
+    return templ.render(template_sentiments=template_sentiments, template_articles=rank_related_arts)
+
+    #return news.news_to_html(ret)
 
 
 @app.route('/api/beer', methods=['POST'])
