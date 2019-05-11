@@ -44,7 +44,7 @@ def parse_article(url):
     return {
         'title': article.title,
         'authors': article.authors,
-        'publishDate': article.publish_date,
+        'publishDate': str(article.publish_date),
         'text': article.text,
         'url': url
     }
@@ -116,15 +116,52 @@ def coffee():
     """
     url = request.form.get('url')
 
-    source_article = parse_article(url)
-    query = source_article['title']
-    related_articles = get_related_articles(query)
-    print(related_articles)
-    source_sentiment = get_sentiment(source_article['text'])
-    sentiments = {}
-    for related_url in related_articles:
-        article = {'url': related_url} #parse_article(related_url)
-        sentiments[article['url']] = 1#get_sentiment(article['text'])
+    source_article = dict()
+    related_articles = list()
+
+    with open('articles_caching.json') as f_h:
+        cached_articles = json.load(f_h)
+    if url not in cached_articles:
+        print('CACHE_MISS: {}'.format(url))
+        source_article = parse_article(url)
+        query = source_article['title']
+
+        source_article.update({'related_articles': get_related_articles(query)})
+        cached_articles.update({url: source_article})
+        with open('articles_caching.json', 'w') as f_h:
+            json.dump(cached_articles, f_h, indent=4)
+    else:
+        print('CACHE_HIT')
+        source_article = cached_articles[url]
+
+    source_sentiment = dict()
+    if source_article['title'] not in cached_articles:
+        source_sentiment = get_sentiment(source_article['text'])
+        cached_articles.update({source_article['title']: source_sentiment})
+    else:
+        source_sentiment = cached_articles[source_article['title']]
+
+    sentiments = dict()
+    for related_url in source_article['related_articles']:
+        article = dict()
+        if related_url not in cached_articles:
+            article = parse_article(related_url)
+            query = article['title']
+
+            article.update({'related_articles': get_related_articles(query)})
+            cached_articles.update({related_url: article})
+            with open('articles_caching.json', 'w') as f_h:
+                json.dump(cached_articles, f_h, indent=4)
+        else:
+            article = cached_articles[related_url]
+
+        if article['title'] not in cached_articles:
+            sentiments[related_url] = get_sentiment(article['text'])
+            cached_articles.update({article['title']: sentiments[related_url]})
+            with open('articles_caching.json', 'w') as f_h:
+                json.dump(cached_articles, f_h, indent=4)
+        else:
+            sentiments[related_url] = cached_articles[article['title']]
 
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
     rank_related_arts = []

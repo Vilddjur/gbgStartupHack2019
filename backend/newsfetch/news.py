@@ -3,6 +3,7 @@
 import requests
 import json
 import logging
+import pdb
 
 news_key='1b89d91f976447cb89c3310dda3143ec'
 OK=200
@@ -28,7 +29,7 @@ def get_related_articles(query, log=False):
         if log: print(text)
 
     req = ('https://newsapi.org/v2/everything?'
-            'q='+query+'&'
+            'q='+'+'.join(query.split())+'&'
             'apiKey='+news_key)
 
     logprint(req)
@@ -53,4 +54,5 @@ def get_related_articles(query, log=False):
 
 
 if __name__ == '__main__':
-    get_related_articles('https://edition.cnn.com/2019/05/11/opinions/trump-tramples-world-intl/index.html')
+    print(get_related_articles('Trump tramples and divides world, just like he does at home'))
+    print(get_related_articles('Trump tariffs'))
