@@ -9,7 +9,7 @@
 
 function li_from_news_obj(o){
   var ret ="<li class='single-news-item'>";
-  //ret.concat("<img class='news-image' src='"+ o.image_url + "' />");
+  ret += "<img class='news-image' src='"+ o["urlToImage"] + "' />";
   ret += "<h3 class='news-title'><a href='"+o["url"]+"'>" + o["title"] + "</a></h3>";
   //TODO: add tones
   ret += "</li>";
