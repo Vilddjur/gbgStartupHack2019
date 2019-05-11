@@ -37,6 +37,9 @@ def get_sentiment(text):
 
     Return: <not decided>
     """
+    sent_al = SentimentalAnalyser()
+    sentiment = sent_al.get_sentiment(text)
+    return sentiment
     raise NotImplementedError
 
 
