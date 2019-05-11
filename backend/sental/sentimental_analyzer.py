@@ -48,5 +48,6 @@ class IBMSentimentalAnalyzer(SentimentalAnalyzer):
         tone_analysis = self.tone_analyzer.tone(
                                 text,
                                 content_type = 'text/plain',
+                                sentences = False
                             ).get_result()
-        return tone_analysis
+        return tone_analysis['document_tone']['tones']

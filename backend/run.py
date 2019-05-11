@@ -58,26 +58,11 @@ def get_sentiment(text, api='IBM'):
 
     Return:
         api == IBM:
-            {
-                'document_tone': {
-                    'tones': [{
-                        'score': 0.673332,
-                        'tone_id': 'joy',
-                        'tone_name': 'Joy'
-                    }]
-                }
-                "sentences_tone": [{
-                    "sentence_id": 0,
-                    "text": "President Donald Trump on Friday issued a sta.....",
-        may not be removed\" while trade talks continue.",
-                    "tones": [{
-                            "score": 0.802155,
-                            "tone_id": "tentative",
-                            "tone_name": "Tentative"
-                        }
-                    ]
-                }
-            }
+            'tones': [{
+                'score': 0.673332,
+                'tone_id': 'joy',
+                'tone_name': 'Joy'
+            }]
         
         api == aylient:
             dict: 
@@ -91,7 +76,6 @@ def get_sentiment(text, api='IBM'):
     """
     sent_al = SentimentalAnalyser(api)
     sentiment = sent_al.get_sentiment(text)
-
     return sentiment
 
 
