@@ -4,7 +4,7 @@ import flask
 import json
 import newspaper
 
-from sental.sentimental_analyser import SentimentalAnalyser
+from sental.sentimental_analyzer import SentimentalAnalyzer
 from testing_stuff import mock
 import newsfetch.news
 

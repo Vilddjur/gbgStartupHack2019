@@ -1,6 +1,6 @@
 import argparse
 import json
-from .sentimental_analyser import SentimentalAnalyzer
+from .sentimental_analyzer import SentimentalAnalyzer
 
 def parse_args():
     parser = argparse.ArgumentParser()
