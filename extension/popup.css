@@ -12,3 +12,7 @@ th, td {
 .sentiment-column {
     margin-top: 20px;
 }
+
+#results {
+    margin: 10px;
+}
