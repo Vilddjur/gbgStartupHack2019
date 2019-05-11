@@ -28,13 +28,17 @@ def get_related_articles(query, log=False):
     def logprint(text):
         if log: print(text)
 
-    req = ('https://newsapi.org/v2/everything?'
+    req = ('https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/NewsSearchAPI?autoCorrect=true&pageNumber=1&pageSize=10&'
             'q='+'+'.join(query.split())+'&'
-            'apiKey='+news_key)
+            'safeSearch=true')
 
     logprint(req)
 
-    res = requests.get(req)
+    res = requests.get(req, 
+              headers={
+                "X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com",
+                "X-RapidAPI-Key": "2281645066mshb5fe08876b82c2fp1b8045jsn816ee735b171"
+              })
     logprint("Response status %i" % res.status_code)
 
     urls = {}
@@ -44,7 +48,7 @@ def get_related_articles(query, log=False):
             with open('related_article_dump.json', 'w+') as out:
                 json.dump(body, out, indent=4)
 
-        articles = body['articles']
+        articles = body['value']
         logprint("Found %i articles." % len(articles))
 
         for article in articles:
