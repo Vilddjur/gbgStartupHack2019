@@ -33,4 +33,5 @@ chrome.webNavigation.onCommitted.addListener(function() {
           {urlMatches: 'cnet.com'},
           {urlMatches: 'arstechnica.com'},
           {urlMatches: 'techradar.com'},
+          {urlMatches: 'al.com'},
           {urlMatches: 'theguardian.com'}]});

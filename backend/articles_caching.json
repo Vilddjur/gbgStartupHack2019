@@ -4980,5 +4980,610 @@
             "polarity_confidence": 0.6137718558311462,
             "subjectivity_confidence": 1.0
         }
+    },
+    "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?noredirect=on&utm_term=.047a9ed40c43": {
+        "title": "- The Washington Post",
+        "authors": [],
+        "publishDate": "2019-05-10 00:00:00",
+        "text": "Please enable cookies on your web browser in order to continue.\n\nThe new European data protection law requires us to inform you of the following before you use our website:\n\nWe use cookies and other technologies to customize your experience, perform analytics and deliver personalized advertising on our sites, apps and newsletters and across the Internet based on your interests. By clicking \u201cI agree\u201d below, you consent to the use by us and our third-party partners of cookies and data gathered from your use of our platforms. See our Privacy Policy and Third Party Partners to learn more about the use of data and your rights. You also agree to our Terms of Service.",
+        "url": "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?noredirect=on&utm_term=.047a9ed40c43",
+        "related_articles": {
+            "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/": {
+                "title": "<b>Washington Post</b> Bungles Immigration Fact Check",
+                "url": "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/",
+                "description": "<b>The Washington Post</b> fact checked a few immigration claims by the DOJ on Friday, but ran into a roadblock when looking at &quot;in absentia&quot; rates for illegals.",
+                "keywords": "washington post bungles immigration fact check,daily caller",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-10T21:06:54",
+                "provider": {
+                    "name": "dailycaller"
+                },
+                "image": {
+                    "url": "https://cdn01.dailycaller.com/wp-content/uploads/2019/04/washington-post-logo-e1555999434570.jpg",
+                    "height": 516,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=5609545795543683137",
+                    "thumbnailHeight": 144,
+                    "thumbnailWidth": 334,
+                    "base64Encoding": null
+                }
+            },
+            "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5": {
+                "title": "Alabama Senate passes nation's strictest abortion bill: <b>Washington Post</b>",
+                "url": "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5",
+                "description": "Alabama's state senate has passed the nation's strictest abortion bill, making performing the procedure a felony with few exceptions, <b>the Washington Post</b> reported.",
+                "keywords": "alabama senate passes nation,strictest abortion bill,washington post",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-09T15:54:14",
+                "provider": {
+                    "name": "reuters"
+                },
+                "image": {
+                    "url": "https://s4.reutersmedia.net/resources_v2/images/rcom-default.png",
+                    "height": 630,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=4949501608992947091",
+                    "thumbnailHeight": 472,
+                    "thumbnailWidth": 899,
+                    "base64Encoding": null
+                }
+            },
+            "https://himalaya.com/en/show/859021": {
+                "title": "<b>Post</b> Reports",
+                "url": "https://himalaya.com/en/show/859021",
+                "description": "<b>Post</b> Reports is the daily podcast from The <b>Washington Post</b>. Unparalleled repo...",
+                "keywords": "washington post,post reports,himalaya",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-06T23:00:00",
+                "provider": {
+                    "name": "himalaya"
+                },
+                "image": {
+                    "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/bf/b2/6c/bfb26ce9-daa9-193e-3766-1b8020c54e56/source/600x600bb.jpg",
+                    "height": 600,
+                    "width": 600,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=6762894380577169933",
+                    "thumbnailHeight": 300,
+                    "thumbnailWidth": 300,
+                    "base64Encoding": null
+                }
+            }
+        }
+    },
+    "- The Washington Post": {
+        "IBM": [
+            {
+                "score": 0.780427,
+                "tone_id": "analytical",
+                "tone_name": "Analytical"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "Please enable cookies on your web browser in order to continue.\n\nThe new European data protection law requires us to inform you of the following before you use our website:\n\nWe use cookies and other technologies to customize your experience, perform analytics and deliver personalized advertising on our sites, apps and newsletters and across the Internet based on your interests. By clicking \u201cI agree\u201d below, you consent to the use by us and our third-party partners of cookies and data gathered from your use of our platforms. See our Privacy Policy and Third Party Partners to learn more about the use of data and your rights. You also agree to our Terms of Service.",
+            "polarity_confidence": 0.8353760838508606,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/": {
+        "title": "Washington Post Bungles Immigration Fact Check",
+        "authors": [
+            "Amber Athey",
+            "White House Correspondent"
+        ],
+        "publishDate": "2019-05-10 00:00:00",
+        "text": "The Washington Post fact checked a few immigration claims by the Department of Justice (DOJ) on Friday, but ran into a roadblock when looking at \u201cin absentia\u201d rates for illegal aliens.\n\nThe DOJ\u2019s Executive Office for Immigration Review (EOIR) sent out a fact sheet to reporters last week attempting to dispel myths and rumors about illegal immigration. One \u201cmyth\u201d the EOIR seeks to dismantle is \u201cFew aliens fail to attend their immigration court proceedings.\u201d (RELATED: Washington Post Fact Checker Inflates Trump Falsehoods)\n\nAs the EIOR explains, 44% of non-detained immigration cases end with an \u201cin absentia\u201d order. That means nearly half of released illegal aliens do not show up for their court hearings and are ordered to be removed by a judge.\n\nWaPo, however, does gymnastics to claim the EOIR is \u201ccherry-picking data.\u201d\n\nThe article accuses the EOIR of being misleading about the \u201cin absentia\u201d rate because they do not include cases where aliens were detained prior to their hearings. Of course, aliens who are detained have to show up.\n\n\u201cOnly non-detained aliens are potentially subject to an in absentia order of removal,\u201d EOIR spokeswoman Kathryn Mattingly explained to WaPo. \u201cBy definition, a detained alien generally would not be subject to an in absentia removal order because the Department of Homeland Security is responsible for ensuring all aliens in its custody attend hearings. Consequently, including detained aliens in a measure of the in absentia rate would present a misleading picture of how many aliens attend hearings.\u201d\n\nStill, WaPo raised an issue with the fact that the EOIR did not note that the \u201cin absentia\u201d rate for all asylum cases was just 11% in 2017. But all of the asylum cases would necessarily include aliens who were detained prior to their hearings, so that rate does not give an accurate picture of how many aliens are released and then fail to show up.\n\n\u201cAsked why EOIR officials focused on non-detained cases, Mattingly said the asylum category includes some immigrants who are in custody and unable to skip their hearings, though she did not break down what share of the total they represent,\u201d WaPo writes.\n\nWaPo fact checked three other claims from the fact sheet, but doesn\u2019t give EOIR the clear on the \u201cin absentia\u201d rates. In their Pinocchio rating, WaPo writes, \u201cTaken individually, each of the four claims we analyzed relies on a dubious read of the data or tells only part of the story, which tips the scale toward Two Pinocchios. The effect is more pernicious when considering all four claims together, which is an argument for Three Pinocchios.\u201d\n\nEven after WaPo claims the data is \u201cdubious,\u201d they admit it is \u201creasonable\u201d to leave detained migrants out of \u201cin absentia\u201d rates, raising the question of why they fact checked the claim in the first place.\n\nFollow Amber on Twitter",
+        "url": "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/"
+    },
+    "Washington Post Bungles Immigration Fact Check": {
+        "IBM": [
+            {
+                "score": 0.512642,
+                "tone_id": "sadness",
+                "tone_name": "Sadness"
+            },
+            {
+                "score": 0.903426,
+                "tone_id": "analytical",
+                "tone_name": "Analytical"
+            },
+            {
+                "score": 0.724465,
+                "tone_id": "confident",
+                "tone_name": "Confident"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "The Washington Post fact checked a few immigration claims by the Department of Justice (DOJ) on Friday, but ran into a roadblock when looking at \u201cin absentia\u201d rates for illegal aliens.\n\nThe DOJ\u2019s Executive Office for Immigration Review (EOIR) sent out a fact sheet to reporters last week attempting to dispel myths and rumors about illegal immigration. One \u201cmyth\u201d the EOIR seeks to dismantle is \u201cFew aliens fail to attend their immigration court proceedings.\u201d (RELATED: Washington Post Fact Checker Inflates Trump Falsehoods)\n\nAs the EIOR explains, 44% of non-detained immigration cases end with an \u201cin absentia\u201d order. That means nearly half of released illegal aliens do not show up for their court hearings and are ordered to be removed by a judge.\n\nWaPo, however, does gymnastics to claim the EOIR is \u201ccherry-picking data.\u201d\n\nThe article accuses the EOIR of being misleading about the \u201cin absentia\u201d rate because they do not include cases where aliens were detained prior to their hearings. Of course, aliens who are detained have to show up.\n\n\u201cOnly non-detained aliens are potentially subject to an in absentia order of removal,\u201d EOIR spokeswoman Kathryn Mattingly explained to WaPo. \u201cBy definition, a detained alien generally would not be subject to an in absentia removal order because the Department of Homeland Security is responsible for ensuring all aliens in its custody attend hearings. Consequently, including detained aliens in a measure of the in absentia rate would present a misleading picture of how many aliens attend hearings.\u201d\n\nStill, WaPo raised an issue with the fact that the EOIR did not note that the \u201cin absentia\u201d rate for all asylum cases was just 11% in 2017. But all of the asylum cases would necessarily include aliens who were detained prior to their hearings, so that rate does not give an accurate picture of how many aliens are released and then fail to show up.\n\n\u201cAsked why EOIR officials focused on non-detained cases, Mattingly said the asylum category includes some immigrants who are in custody and unable to skip their hearings, though she did not break down what share of the total they represent,\u201d WaPo writes.\n\nWaPo fact checked three other claims from the fact sheet, but doesn\u2019t give EOIR the clear on the \u201cin absentia\u201d rates. In their Pinocchio rating, WaPo writes, \u201cTaken individually, each of the four claims we analyzed relies on a dubious read of the data or tells only part of the story, which tips the scale toward Two Pinocchios. The effect is more pernicious when considering all four claims together, which is an argument for Three Pinocchios.\u201d\n\nEven after WaPo claims the data is \u201cdubious,\u201d they admit it is \u201creasonable\u201d to leave detained migrants out of \u201cin absentia\u201d rates, raising the question of why they fact checked the claim in the first place.\n\nFollow Amber on Twitter",
+            "polarity_confidence": 0.8729430437088013,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5": {
+        "title": "Alabama Senate delays vote on strict anti-abortion bill",
+        "authors": [
+            "Daniel Trotta",
+            "Min Read"
+        ],
+        "publishDate": "2019-05-09 21:34:47+00:00",
+        "text": "(Reuters) - Alabama\u2019s state Senate on Thursday delayed until next week a vote on the strictest abortion bill in the United States after disagreement arose on the Senate floor about whether to allow women impregnated by rape and incest to have a legal abortion.\n\nThe Alabama debate follows passage of anti-abortion laws in states that border it to the east and west, Georgia and Mississippi, creating what abortion rights advocates have warned would be a massive \u201cabortion desert.\u201d\n\nAnti-abortion legislators have introduced strict bills in states across the country, inviting legal challenges in hopes that a case will land before the U.S. Supreme Court.\n\nThe high court now has a majority of conservative judges, including two appointed by Republican President Donald Trump, who could possibly overturn Roe v. Wade, the 1973 landmark decision that established a woman\u2019s right to an abortion.\n\nAlabama\u2019s House of Representatives passed a bill last week that would have banned abortion except in cases where the mother\u2019s life was in danger, which would make it the strictest state abortion law in the country.\n\nAfter the bill moved to the Senate, the Alabama Senate Judiciary Committee on Wednesday added an amendment by Senator Tom Whatley that would also include exceptions for cases of rape and incest.\n\nWhen the matter came before the full Senate on Thursday, and it was evident there was no consensus on the rape and incest amendment, the Senate delayed the vote until Tuesday, said Kim Robertson, a spokeswoman for Whatley.\n\nDebate on a version of the bill without the rape and incest amendment was set to begin at 4 p.m. Central Time (2100 GMT) on Tuesday, she said.\n\nGeorgia on Tuesday became the fourth U.S. state this year to outlaw abortion after a doctor can detect a fetal heartbeat, which abortion-rights advocates vowed to challenge in court.\n\nFILE PHOTO - An exam room at the Planned Parenthood South Austin Health Center is seen in Austin, Texas, U.S. June 27, 2016. REUTERS/Ilana Panich-Linsman\n\nOpponents called the legislation a virtual ban because fetal heartbeats can be detected as early as six weeks, before a woman may be aware she is pregnant.\n\nKentucky, Mississippi and Ohio have enacted heartbeat laws since mid-March, and Iowa passed one last year. Courts have blocked the Iowa and Kentucky laws, and the others face legal challenges.\n\nAnti-abortion advocates have introduced measures in 15 states to ban the procedure as early as six weeks into a pregnancy, according to Rewire.News, a site specializing in the issue.",
+        "url": "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5"
+    },
+    "Alabama Senate delays vote on strict anti-abortion bill": {
+        "IBM": [],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "(Reuters) - Alabama\u2019s state Senate on Thursday delayed until next week a vote on the strictest abortion bill in the United States after disagreement arose on the Senate floor about whether to allow women impregnated by rape and incest to have a legal abortion.\n\nThe Alabama debate follows passage of anti-abortion laws in states that border it to the east and west, Georgia and Mississippi, creating what abortion rights advocates have warned would be a massive \u201cabortion desert.\u201d\n\nAnti-abortion legislators have introduced strict bills in states across the country, inviting legal challenges in hopes that a case will land before the U.S. Supreme Court.\n\nThe high court now has a majority of conservative judges, including two appointed by Republican President Donald Trump, who could possibly overturn Roe v. Wade, the 1973 landmark decision that established a woman\u2019s right to an abortion.\n\nAlabama\u2019s House of Representatives passed a bill last week that would have banned abortion except in cases where the mother\u2019s life was in danger, which would make it the strictest state abortion law in the country.\n\nAfter the bill moved to the Senate, the Alabama Senate Judiciary Committee on Wednesday added an amendment by Senator Tom Whatley that would also include exceptions for cases of rape and incest.\n\nWhen the matter came before the full Senate on Thursday, and it was evident there was no consensus on the rape and incest amendment, the Senate delayed the vote until Tuesday, said Kim Robertson, a spokeswoman for Whatley.\n\nDebate on a version of the bill without the rape and incest amendment was set to begin at 4 p.m. Central Time (2100 GMT) on Tuesday, she said.\n\nGeorgia on Tuesday became the fourth U.S. state this year to outlaw abortion after a doctor can detect a fetal heartbeat, which abortion-rights advocates vowed to challenge in court.\n\nFILE PHOTO - An exam room at the Planned Parenthood South Austin Health Center is seen in Austin, Texas, U.S. June 27, 2016. REUTERS/Ilana Panich-Linsman\n\nOpponents called the legislation a virtual ban because fetal heartbeats can be detected as early as six weeks, before a woman may be aware she is pregnant.\n\nKentucky, Mississippi and Ohio have enacted heartbeat laws since mid-March, and Iowa passed one last year. Courts have blocked the Iowa and Kentucky laws, and the others face legal challenges.\n\nAnti-abortion advocates have introduced measures in 15 states to ban the procedure as early as six weeks into a pregnancy, according to Rewire.News, a site specializing in the issue.",
+            "polarity_confidence": 0.743587076663971,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://himalaya.com/en/show/859021": {
+        "title": "Post Reports",
+        "authors": [
+            "The Washington Post"
+        ],
+        "publishDate": "None",
+        "text": "Post Reports is the daily podcast from The Washington Post. Unparalleled reporting. Expert insight. Clear analysis. Everything you\u2019ve come to expect from the newsroom of The Post. For your ears. Martine Powers is your host, asking the questions you didn\u2019t know you wanted answered. Published weekdays by 5 p.m. Eastern time.",
+        "url": "https://himalaya.com/en/show/859021"
+    },
+    "Post Reports": {
+        "IBM": [
+            {
+                "score": 0.770765,
+                "tone_id": "confident",
+                "tone_name": "Confident"
+            },
+            {
+                "score": 0.971415,
+                "tone_id": "analytical",
+                "tone_name": "Analytical"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "Post Reports is the daily podcast from The Washington Post. Unparalleled reporting. Expert insight. Clear analysis. Everything you\u2019ve come to expect from the newsroom of The Post. For your ears. Martine Powers is your host, asking the questions you didn\u2019t know you wanted answered. Published weekdays by 5 p.m. Eastern time.",
+            "polarity_confidence": 0.9429667592048645,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?utm_term=.3b1b00e1b894": {
+        "title": "- The Washington Post",
+        "authors": [],
+        "publishDate": "2019-05-10 00:00:00",
+        "text": "Please enable cookies on your web browser in order to continue.\n\nThe new European data protection law requires us to inform you of the following before you use our website:\n\nWe use cookies and other technologies to customize your experience, perform analytics and deliver personalized advertising on our sites, apps and newsletters and across the Internet based on your interests. By clicking \u201cI agree\u201d below, you consent to the use by us and our third-party partners of cookies and data gathered from your use of our platforms. See our Privacy Policy and Third Party Partners to learn more about the use of data and your rights. You also agree to our Terms of Service.",
+        "url": "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?utm_term=.3b1b00e1b894",
+        "related_articles": {
+            "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/": {
+                "title": "<b>Washington Post</b> Bungles Immigration Fact Check",
+                "url": "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/",
+                "description": "<b>The Washington Post</b> fact checked a few immigration claims by the DOJ on Friday, but ran into a roadblock when looking at &quot;in absentia&quot; rates for illegals.",
+                "keywords": "washington post bungles immigration fact check,daily caller",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-10T21:06:54",
+                "provider": {
+                    "name": "dailycaller"
+                },
+                "image": {
+                    "url": "https://cdn01.dailycaller.com/wp-content/uploads/2019/04/washington-post-logo-e1555999434570.jpg",
+                    "height": 516,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=5609545795543683137",
+                    "thumbnailHeight": 144,
+                    "thumbnailWidth": 334,
+                    "base64Encoding": null
+                }
+            },
+            "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5": {
+                "title": "Alabama Senate passes nation's strictest abortion bill: <b>Washington Post</b>",
+                "url": "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5",
+                "description": "Alabama's state senate has passed the nation's strictest abortion bill, making performing the procedure a felony with few exceptions, <b>the Washington Post</b> reported.",
+                "keywords": "alabama senate passes nation,strictest abortion bill,washington post",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-09T15:54:14",
+                "provider": {
+                    "name": "reuters"
+                },
+                "image": {
+                    "url": "https://s4.reutersmedia.net/resources_v2/images/rcom-default.png",
+                    "height": 630,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=4949501608992947091",
+                    "thumbnailHeight": 472,
+                    "thumbnailWidth": 899,
+                    "base64Encoding": null
+                }
+            },
+            "https://himalaya.com/en/show/859021": {
+                "title": "<b>Post</b> Reports",
+                "url": "https://himalaya.com/en/show/859021",
+                "description": "<b>Post</b> Reports is the daily podcast from The <b>Washington Post</b>. Unparalleled repo...",
+                "keywords": "washington post,post reports,himalaya",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-06T23:00:00",
+                "provider": {
+                    "name": "himalaya"
+                },
+                "image": {
+                    "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/bf/b2/6c/bfb26ce9-daa9-193e-3766-1b8020c54e56/source/600x600bb.jpg",
+                    "height": 600,
+                    "width": 600,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=6762894380577169933",
+                    "thumbnailHeight": 300,
+                    "thumbnailWidth": 300,
+                    "base64Encoding": null
+                }
+            }
+        }
+    },
+    "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?utm_term=.9c022597fa31": {
+        "title": "- The Washington Post",
+        "authors": [],
+        "publishDate": "2019-05-10 00:00:00",
+        "text": "Please enable cookies on your web browser in order to continue.\n\nThe new European data protection law requires us to inform you of the following before you use our website:\n\nWe use cookies and other technologies to customize your experience, perform analytics and deliver personalized advertising on our sites, apps and newsletters and across the Internet based on your interests. By clicking \u201cI agree\u201d below, you consent to the use by us and our third-party partners of cookies and data gathered from your use of our platforms. See our Privacy Policy and Third Party Partners to learn more about the use of data and your rights. You also agree to our Terms of Service.",
+        "url": "https://www.washingtonpost.com/politics/mcgahn-refused-request-by-white-house-to-say-trump-did-not-obstruct-justice-after-mueller-reports-release/2019/05/10/f2caa620-7386-11e9-8be0-ca575670e91c_story.html?utm_term=.9c022597fa31",
+        "related_articles": {
+            "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/": {
+                "title": "<b>Washington Post</b> Bungles Immigration Fact Check",
+                "url": "https://dailycaller.com/2019/05/10/washington-post-bungles-immigration-fact-check/",
+                "description": "<b>The Washington Post</b> fact checked a few immigration claims by the DOJ on Friday, but ran into a roadblock when looking at &quot;in absentia&quot; rates for illegals.",
+                "keywords": "washington post bungles immigration fact check,daily caller",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-10T21:06:54",
+                "provider": {
+                    "name": "dailycaller"
+                },
+                "image": {
+                    "url": "https://cdn01.dailycaller.com/wp-content/uploads/2019/04/washington-post-logo-e1555999434570.jpg",
+                    "height": 516,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=5609545795543683137",
+                    "thumbnailHeight": 144,
+                    "thumbnailWidth": 334,
+                    "base64Encoding": null
+                }
+            },
+            "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5": {
+                "title": "Alabama Senate passes nation's strictest abortion bill: <b>Washington Post</b>",
+                "url": "http://feeds.reuters.com/~r/Reuters/PoliticsNews/~3/Kh9uA_FTBOc/alabama-senate-passes-nations-strictest-abortion-bill-washington-post-idUSKCN1SF1W5",
+                "description": "Alabama's state senate has passed the nation's strictest abortion bill, making performing the procedure a felony with few exceptions, <b>the Washington Post</b> reported.",
+                "keywords": "alabama senate passes nation,strictest abortion bill,washington post",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-09T15:54:14",
+                "provider": {
+                    "name": "reuters"
+                },
+                "image": {
+                    "url": "https://s4.reutersmedia.net/resources_v2/images/rcom-default.png",
+                    "height": 630,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=4949501608992947091",
+                    "thumbnailHeight": 472,
+                    "thumbnailWidth": 899,
+                    "base64Encoding": null
+                }
+            },
+            "https://himalaya.com/en/show/859021": {
+                "title": "<b>Post</b> Reports",
+                "url": "https://himalaya.com/en/show/859021",
+                "description": "<b>Post</b> Reports is the daily podcast from The <b>Washington Post</b>. Unparalleled repo...",
+                "keywords": "washington post,post reports,himalaya",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-06T23:00:00",
+                "provider": {
+                    "name": "himalaya"
+                },
+                "image": {
+                    "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/bf/b2/6c/bfb26ce9-daa9-193e-3766-1b8020c54e56/source/600x600bb.jpg",
+                    "height": 600,
+                    "width": 600,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=6762894380577169933",
+                    "thumbnailHeight": 300,
+                    "thumbnailWidth": 300,
+                    "base64Encoding": null
+                }
+            }
+        }
+    },
+    "https://eu.usatoday.com/story/news/politics/2019/05/11/trump-jr-subpoena-richard-burr-faces-pressure/1169275001/": {
+        "title": "Donald Trump Jr. subpoena: Why did Richard Burr issue it?",
+        "authors": [
+            "Eliza Collins"
+        ],
+        "publishDate": "2019-05-11 00:00:00",
+        "text": "Firestorm erupts around Sen. Richard Burr, man behind Donald Trump Jr. subpoena. He's not backing down\n\nWASHINGTON \u2014 North Carolina Sen. Richard Burr is not one to make a splash.\n\nSo when the Senate Intelligence Committee, which Burr chairs, issued a subpoena to Donald Trump Jr., it didn\u2019t leak out for a couple of weeks. When the news finally broke, Burr refused to talk about it.\n\nThat didn\u2019t stop the onslaught from fellow Republicans, including President Donald Trump who said he was \u201cvery surprised\u201d by the move. Kentucky Sen. Rand Paul called it \u201cpersecution of the president\u2019s family.\u201d Even Burr\u2019s fellow North Carolina Republican, Sen. Thom Tillis, facing a primary challenge in 2020, tweeted \u201cIt\u2019s time to move on.\u201d\n\nBurr is not the usual target for Republican ire. He\u2019s been in Washington since 1995, first in the House then the Senate, and is a reliable conservative vote.\n\nThe mild-mannered senator is a far cry from the president\u2019s Democratic critics, who have suggested Trump is \"goading\" impeachment by trying to overturn constitutional norms.\n\nThe subpoena \u201cis a courageous move for Burr, for the senator, because he knew that the angriest people would be members of his own party,\u201d Frank Luntz, a GOP pollster told USA TODAY.\n\n\u201cIt shows that he is pretty secure both in his position in the Senate and among his own voters,\u201d Luntz continued. He said even though Burr doesn\u2019t have to face voters at the ballot box he still will be a senator for the next few years. Burr is not seeking re-election in 2022.\n\n\u201cTrump voters don\u2019t forget and they\u2019ll be asking him why he did this two years from now until his term is done,\u201d he said.\n\nThe subpoena of the president\u2019s son has ripped open a divide within the Republican Party that threatens to grow wider if Donald Trump Jr. refuses to cooperate. Burr and his GOP-led committee will then be forced to grapple with how to proceed.\n\nThe president's orbit: Michael Cohen begins 3-year prison term\n\nWhat Pelosi thinks:Trump is 'goading' Democrats on impeachment to rally his base\n\nLike what you\u2019re reading?: Download the USA TODAY app for more\n\nEarlier this week, the House Judiciary Committee voted to hold the attorney general in contempt of Congress for refusing to turn over an unredacted version of Special Counsel Robert Mueller\u2019s report into Russian interference in the 2016 election.\n\nA source familiar with the subpoena said that Trump Jr. is considering three options for dealing with the order, none of which involve going to the Hill to testify.\n\nOne option is to ignore it entirely and let the GOP-led panel decide if they want to vote to hold him in contempt of Congress, a move the source expected would be unlikely to make it through the Republican majority in the full Senate, even if it did pass the Intelligence Committee. Trump Jr. is also considering invoking in writing his Fifth Amendment right to refuse to answer questions that lead to self-incrimination. Finally, he would be open to a possible compromise that could include written responses to questions, the source said.\n\nNot all Republicans were critical of Burr. After the GOP lunch Thursday \u2013 where the subpoena came up \u2013 a stream of senators, including South Carolina Sen. Tim Scott, came out and announced they had \u201cgreat confidence\u201d in Burr with whatever decision he made.\n\nSen. Roy Blunt, a Republican member of the Intelligence Committee, reiterated that Burr has said there was no evidence of collusion between the Trump campaign and the Russian government and the chairman was \u201cjust trying to be sure that everybody\u2019s asked all the questions\u201d needed before proceeding.\n\n\u201cI don\u2019t think there\u2019s any possibility that any of those questions would change the conclusion,\u201d Blunt added.\n\nRepublican senators on the committee insisted that the request was just business as usual and not related to Mueller's report and the Trump campaign\u2019s role. Results of that investigation were released last month in a 448-page report.\n\n\u201cMueller\u2019s was a criminal justice investigation. Ours is an intelligence investigation about the Russia threat and about the way our agencies performed,\u201d said Sen. Marco Rubio, R-Fla.\n\nBurr and Virginia Sen. Mark Warner, the top Democrat on the Senate Intelligence Committee, have created a strong bipartisan atmosphere and have vowed to conclude their investigation into Russian interference in the 2016 election.\n\nWarner, D-Va., vice chairman of the Senate Intelligence Committee, spoke at a breakfast Thursday organized by the Christian Science Monitor, where he called the committee \u201ca little old-fashioned\u201d in its attempt to maintain bipartisanship.\n\n\u201cI think both Burr and I have been under pressure. He\u2019s been under pressure to get it done. I\u2019ve been under pressure of: reach a conclusion. We\u2019ve kind of tried to stick to: follow the facts,\u201d Warner said.\n\nHe wouldn\u2019t address Trump Jr. specifically, but he told reporters that \u201cthe committee has been telling everyone that we reserve the right to bring witnesses back if we have further questions or if there are inconsistencies.\u201d\n\nNot everything on the committee has gone according to plan.\n\nBurr was criticized after the Mueller report revealed that after an FBI briefing, he had briefed the White House counsel\u2019s office about information on \u201c4-5 targets\u201d who either the Senate Intelligence Committee or the FBI were focused on as part of their investigations into Russian interference in the 2016 election. Witnesses said they believed the targets were part of the Senate\u2019s probe, but the Mueller report pointed out that Senate probes do not investigate \u201ctargets.\u201d\n\nContributing: Christal Hayes and Bart Jansen for USA TODAY",
+        "url": "https://eu.usatoday.com/story/news/politics/2019/05/11/trump-jr-subpoena-richard-burr-faces-pressure/1169275001/",
+        "related_articles": {
+            "http://rssfeeds.usatoday.com/~/601855746/0/usatoday-newstopstories~Firestorm-erupts-around-Sen-Richard-Burr-man-behind-Donald-Trump-Jr-subpoena-Heaposs-not-backing-down/": {
+                "title": "<b>Donald Trump</b> Jr. <b>subpoena</b>: <b>Why did Richard Burr issue it</b>?",
+                "url": "http://rssfeeds.usatoday.com/~/601855746/0/usatoday-newstopstories~Firestorm-erupts-around-Sen-Richard-Burr-man-behind-Donald-Trump-Jr-subpoena-Heaposs-not-backing-down/",
+                "description": "Republican Sen. <b>Richard Burr</b>, who spent decades in Washington and is a reliable conservative vote, is not the usual target of <b>Trump's</b> ire.",
+                "keywords": "donald trump jr,richard burr,washington,subpoena",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-11T10:54:03",
+                "provider": {
+                    "name": "usatoday"
+                },
+                "image": {
+                    "url": "https://www.gannett-cdn.com/presto/2019/05/10/USAT/77062267-f7c3-401c-8303-03452ba2569a-EPA_USA_ROSENSTEIN_FAREWELL_CEREMONY.JPG",
+                    "height": 2987,
+                    "width": 4291,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=737817059156622646",
+                    "thumbnailHeight": 186,
+                    "thumbnailWidth": 267,
+                    "base64Encoding": null
+                }
+            },
+            "https://video.foxnews.com/v/6035149779001/": {
+                "title": "Geraldo Rivera: I urge the <b>Trump</b> administration to fight the Democrats every step of the way",
+                "url": "https://video.foxnews.com/v/6035149779001/",
+                "description": "Correspondent-at-large Geraldo Rivera says he believes North Carolina Republican Sen. <b>Richard Burr</b> gave consent to <b>subpoena Donald Trump</b> Jr. because he is not up for reelection.",
+                "keywords": "donald trump jr,geraldo rivera,air videos,sen",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-10T13:21:37",
+                "provider": {
+                    "name": "foxnews"
+                },
+                "image": {
+                    "url": "https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2019/05/10/640/360/694940094001_6035152690001_6035149779001-vs.jpg",
+                    "height": 360,
+                    "width": 640,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=188832773617876129",
+                    "thumbnailHeight": 180,
+                    "thumbnailWidth": 320,
+                    "base64Encoding": null
+                }
+            },
+            "https://www.thestar.com/news/world/us/2019/05/08/senate-intelligence-committee-subpoenas-donald-trump-jr.html": {
+                "title": "Republicans lash out after Sen. <b>Richard Burr subpoenas Donald Trump</b> Jr.",
+                "url": "https://www.thestar.com/news/world/us/2019/05/08/senate-intelligence-committee-subpoenas-donald-trump-jr.html",
+                "description": "WASHINGTON - The Senate intelligence committee has subpoenaed <b>Donald Trump</b> Jr., calling him in to answer questions about his 2017 testimony.",
+                "keywords": "donald trump,washington,sen",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-10T04:04:53",
+                "provider": {
+                    "name": "thestar"
+                },
+                "image": {
+                    "url": "https://images.thestar.com/-bA5-FSl8VNKWpPhEjb7aWH-3us=/0x0:800x533/800x533/smart/filters:cb(1557441025350)/https://www.thestar.com/content/dam/thestar/uploads/2019/05/08/getimagecontent2e9f22pq-0.jpg",
+                    "height": 533,
+                    "width": 800,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=2030167017534246796",
+                    "thumbnailHeight": 266,
+                    "thumbnailWidth": 399,
+                    "base64Encoding": null
+                }
+            }
+        }
+    },
+    "Donald Trump Jr. subpoena: Why did Richard Burr issue it?": {
+        "IBM": [
+            {
+                "score": 0.508701,
+                "tone_id": "sadness",
+                "tone_name": "Sadness"
+            },
+            {
+                "score": 0.65842,
+                "tone_id": "analytical",
+                "tone_name": "Analytical"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "Firestorm erupts around Sen. Richard Burr, man behind Donald Trump Jr. subpoena. He's not backing down\n\nWASHINGTON \u2014 North Carolina Sen. Richard Burr is not one to make a splash.\n\nSo when the Senate Intelligence Committee, which Burr chairs, issued a subpoena to Donald Trump Jr., it didn\u2019t leak out for a couple of weeks. When the news finally broke, Burr refused to talk about it.\n\nThat didn\u2019t stop the onslaught from fellow Republicans, including President Donald Trump who said he was \u201cvery surprised\u201d by the move. Kentucky Sen. Rand Paul called it \u201cpersecution of the president\u2019s family.\u201d Even Burr\u2019s fellow North Carolina Republican, Sen. Thom Tillis, facing a primary challenge in 2020, tweeted \u201cIt\u2019s time to move on.\u201d\n\nBurr is not the usual target for Republican ire. He\u2019s been in Washington since 1995, first in the House then the Senate, and is a reliable conservative vote.\n\nThe mild-mannered senator is a far cry from the president\u2019s Democratic critics, who have suggested Trump is \"goading\" impeachment by trying to overturn constitutional norms.\n\nThe subpoena \u201cis a courageous move for Burr, for the senator, because he knew that the angriest people would be members of his own party,\u201d Frank Luntz, a GOP pollster told USA TODAY.\n\n\u201cIt shows that he is pretty secure both in his position in the Senate and among his own voters,\u201d Luntz continued. He said even though Burr doesn\u2019t have to face voters at the ballot box he still will be a senator for the next few years. Burr is not seeking re-election in 2022.\n\n\u201cTrump voters don\u2019t forget and they\u2019ll be asking him why he did this two years from now until his term is done,\u201d he said.\n\nThe subpoena of the president\u2019s son has ripped open a divide within the Republican Party that threatens to grow wider if Donald Trump Jr. refuses to cooperate. Burr and his GOP-led committee will then be forced to grapple with how to proceed.\n\nThe president's orbit: Michael Cohen begins 3-year prison term\n\nWhat Pelosi thinks:Trump is 'goading' Democrats on impeachment to rally his base\n\nLike what you\u2019re reading?: Download the USA TODAY app for more\n\nEarlier this week, the House Judiciary Committee voted to hold the attorney general in contempt of Congress for refusing to turn over an unredacted version of Special Counsel Robert Mueller\u2019s report into Russian interference in the 2016 election.\n\nA source familiar with the subpoena said that Trump Jr. is considering three options for dealing with the order, none of which involve going to the Hill to testify.\n\nOne option is to ignore it entirely and let the GOP-led panel decide if they want to vote to hold him in contempt of Congress, a move the source expected would be unlikely to make it through the Republican majority in the full Senate, even if it did pass the Intelligence Committee. Trump Jr. is also considering invoking in writing his Fifth Amendment right to refuse to answer questions that lead to self-incrimination. Finally, he would be open to a possible compromise that could include written responses to questions, the source said.\n\nNot all Republicans were critical of Burr. After the GOP lunch Thursday \u2013 where the subpoena came up \u2013 a stream of senators, including South Carolina Sen. Tim Scott, came out and announced they had \u201cgreat confidence\u201d in Burr with whatever decision he made.\n\nSen. Roy Blunt, a Republican member of the Intelligence Committee, reiterated that Burr has said there was no evidence of collusion between the Trump campaign and the Russian government and the chairman was \u201cjust trying to be sure that everybody\u2019s asked all the questions\u201d needed before proceeding.\n\n\u201cI don\u2019t think there\u2019s any possibility that any of those questions would change the conclusion,\u201d Blunt added.\n\nRepublican senators on the committee insisted that the request was just business as usual and not related to Mueller's report and the Trump campaign\u2019s role. Results of that investigation were released last month in a 448-page report.\n\n\u201cMueller\u2019s was a criminal justice investigation. Ours is an intelligence investigation about the Russia threat and about the way our agencies performed,\u201d said Sen. Marco Rubio, R-Fla.\n\nBurr and Virginia Sen. Mark Warner, the top Democrat on the Senate Intelligence Committee, have created a strong bipartisan atmosphere and have vowed to conclude their investigation into Russian interference in the 2016 election.\n\nWarner, D-Va., vice chairman of the Senate Intelligence Committee, spoke at a breakfast Thursday organized by the Christian Science Monitor, where he called the committee \u201ca little old-fashioned\u201d in its attempt to maintain bipartisanship.\n\n\u201cI think both Burr and I have been under pressure. He\u2019s been under pressure to get it done. I\u2019ve been under pressure of: reach a conclusion. We\u2019ve kind of tried to stick to: follow the facts,\u201d Warner said.\n\nHe wouldn\u2019t address Trump Jr. specifically, but he told reporters that \u201cthe committee has been telling everyone that we reserve the right to bring witnesses back if we have further questions or if there are inconsistencies.\u201d\n\nNot everything on the committee has gone according to plan.\n\nBurr was criticized after the Mueller report revealed that after an FBI briefing, he had briefed the White House counsel\u2019s office about information on \u201c4-5 targets\u201d who either the Senate Intelligence Committee or the FBI were focused on as part of their investigations into Russian interference in the 2016 election. Witnesses said they believed the targets were part of the Senate\u2019s probe, but the Mueller report pointed out that Senate probes do not investigate \u201ctargets.\u201d\n\nContributing: Christal Hayes and Bart Jansen for USA TODAY",
+            "polarity_confidence": 0.8038235902786255,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "http://rssfeeds.usatoday.com/~/601855746/0/usatoday-newstopstories~Firestorm-erupts-around-Sen-Richard-Burr-man-behind-Donald-Trump-Jr-subpoena-Heaposs-not-backing-down/": {
+        "title": "Donald Trump Jr. subpoena: Why did Richard Burr issue it?",
+        "authors": [
+            "Eliza Collins"
+        ],
+        "publishDate": "None",
+        "text": "Firestorm erupts around Sen. Richard Burr, man behind Donald Trump Jr. subpoena. He's not backing down\n\nWASHINGTON \u2014 North Carolina Sen. Richard Burr is not one to make a splash.\n\nSo when the Senate Intelligence Committee, which Burr chairs, issued a subpoena to Donald Trump Jr., it didn\u2019t leak out for a couple of weeks. When the news finally broke, Burr refused to talk about it.\n\nThat didn\u2019t stop the onslaught from fellow Republicans, including President Donald Trump who said he was \u201cvery surprised\u201d by the move. Kentucky Sen. Rand Paul called it \u201cpersecution of the president\u2019s family.\u201d Even Burr\u2019s fellow North Carolina Republican, Sen. Thom Tillis, facing a primary challenge in 2020, tweeted \u201cIt\u2019s time to move on.\u201d\n\nBurr is not the usual target for Republican ire. He\u2019s been in Washington since 1995, first in the House then the Senate, and is a reliable conservative vote.\n\nThe mild-mannered senator is a far cry from the president\u2019s Democratic critics, who have suggested Trump is \"goading\" impeachment by trying to overturn constitutional norms.\n\nThe subpoena \u201cis a courageous move for Burr, for the senator, because he knew that the angriest people would be members of his own party,\u201d Frank Luntz, a GOP pollster told USA TODAY.\n\n\u201cIt shows that he is pretty secure both in his position in the Senate and among his own voters,\u201d Luntz continued. He said even though Burr doesn\u2019t have to face voters at the ballot box he still will be a senator for the next few years. Burr is not seeking re-election in 2022.\n\n\u201cTrump voters don\u2019t forget and they\u2019ll be asking him why he did this two years from now until his term is done,\u201d he said.\n\nThe subpoena of the president\u2019s son has ripped open a divide within the Republican Party that threatens to grow wider if Donald Trump Jr. refuses to cooperate. Burr and his GOP-led committee will then be forced to grapple with how to proceed.\n\nThe president's orbit: Michael Cohen begins 3-year prison term\n\nWhat Pelosi thinks:Trump is 'goading' Democrats on impeachment to rally his base\n\nLike what you\u2019re reading?: Download the USA TODAY app for more\n\nEarlier this week, the House Judiciary Committee voted to hold the attorney general in contempt of Congress for refusing to turn over an unredacted version of Special Counsel Robert Mueller\u2019s report into Russian interference in the 2016 election.\n\nA source familiar with the subpoena said that Trump Jr. is considering three options for dealing with the order, none of which involve going to the Hill to testify.\n\nOne option is to ignore it entirely and let the GOP-led panel decide if they want to vote to hold him in contempt of Congress, a move the source expected would be unlikely to make it through the Republican majority in the full Senate, even if it did pass the Intelligence Committee. Trump Jr. is also considering invoking in writing his Fifth Amendment right to refuse to answer questions that lead to self-incrimination. Finally, he would be open to a possible compromise that could include written responses to questions, the source said.\n\nNot all Republicans were critical of Burr. After the GOP lunch Thursday \u2013 where the subpoena came up \u2013 a stream of senators, including South Carolina Sen. Tim Scott, came out and announced they had \u201cgreat confidence\u201d in Burr with whatever decision he made.\n\nSen. Roy Blunt, a Republican member of the Intelligence Committee, reiterated that Burr has said there was no evidence of collusion between the Trump campaign and the Russian government and the chairman was \u201cjust trying to be sure that everybody\u2019s asked all the questions\u201d needed before proceeding.\n\n\u201cI don\u2019t think there\u2019s any possibility that any of those questions would change the conclusion,\u201d Blunt added.\n\nRepublican senators on the committee insisted that the request was just business as usual and not related to Mueller's report and the Trump campaign\u2019s role. Results of that investigation were released last month in a 448-page report.\n\n\u201cMueller\u2019s was a criminal justice investigation. Ours is an intelligence investigation about the Russia threat and about the way our agencies performed,\u201d said Sen. Marco Rubio, R-Fla.\n\nBurr and Virginia Sen. Mark Warner, the top Democrat on the Senate Intelligence Committee, have created a strong bipartisan atmosphere and have vowed to conclude their investigation into Russian interference in the 2016 election.\n\nWarner, D-Va., vice chairman of the Senate Intelligence Committee, spoke at a breakfast Thursday organized by the Christian Science Monitor, where he called the committee \u201ca little old-fashioned\u201d in its attempt to maintain bipartisanship.\n\n\u201cI think both Burr and I have been under pressure. He\u2019s been under pressure to get it done. I\u2019ve been under pressure of: reach a conclusion. We\u2019ve kind of tried to stick to: follow the facts,\u201d Warner said.\n\nHe wouldn\u2019t address Trump Jr. specifically, but he told reporters that \u201cthe committee has been telling everyone that we reserve the right to bring witnesses back if we have further questions or if there are inconsistencies.\u201d\n\nNot everything on the committee has gone according to plan.\n\nBurr was criticized after the Mueller report revealed that after an FBI briefing, he had briefed the White House counsel\u2019s office about information on \u201c4-5 targets\u201d who either the Senate Intelligence Committee or the FBI were focused on as part of their investigations into Russian interference in the 2016 election. Witnesses said they believed the targets were part of the Senate\u2019s probe, but the Mueller report pointed out that Senate probes do not investigate \u201ctargets.\u201d\n\nContributing: Christal Hayes and Bart Jansen for USA TODAY",
+        "url": "http://rssfeeds.usatoday.com/~/601855746/0/usatoday-newstopstories~Firestorm-erupts-around-Sen-Richard-Burr-man-behind-Donald-Trump-Jr-subpoena-Heaposs-not-backing-down/"
+    },
+    "https://video.foxnews.com/v/6035149779001/": {
+        "title": "Geraldo Rivera: I urge the Trump administration to fight the Democrats every step of the way",
+        "authors": [],
+        "publishDate": "None",
+        "text": "",
+        "url": "https://video.foxnews.com/v/6035149779001/"
+    },
+    "https://www.theguardian.com/us-news/2019/may/11/rudy-giuliani-trump-ukraine": {
+        "title": "Rudy Giuliani says his controversial pro-Trump Ukraine visit is off",
+        "authors": [
+            "Martin Pengelly"
+        ],
+        "publishDate": "2019-05-11 00:00:00",
+        "text": "Rudy Giuliani has said his controversial planned visit to Ukraine will not go ahead, because of concerns about who he would be meeting.\n\nThere are many reasons not to impeach Trump. The House should do it anyway | Robert Reich Read more\n\nEarlier this week, the former New York mayor who is now an attorney for Donald Trump said he planned to push Ukraine to pursue investigations he hoped could benefit the president politically.\n\nBut on Friday night Giuliani told Fox News he would not go to Kiev after all, because he would be \u201cwalking into a group of people that are enemies of the president ... in some cases enemies of the United States\u201d.\n\nCiting \u201ca person familiar with the conversations\u201d, the New York Times said the Ukrainian president-elect, Volodymyr Zelensky, was urged by advisers not to meet Giuliani.\n\nGiuliani told Fox he was \u201cconvinced from what I\u2019ve heard from two very reliable people tonight that the president is surrounded by people who are enemies\u201d of Trump.\n\nEarlier, Giuliani used Twitter to seek to explain his rationale for a trip in which he said he would push for two investigations.\n\nOne regards the origin of special counsel Robert Mueller\u2019s investigation into Russian interference in the 2016 US election, under which Trump was not found to have conspired with Moscow but which left to Congress the question of whether he obstructed justice.\n\nThe other regards the involvement of Hunter Biden, son of the 2020 Democratic hopeful Joe Biden, in a gas company owned by a Ukrainian oligarch.\n\nDemocrats denounced what they said was an overt attempt to recruit foreign help to influence a US election.\n\nSpeaking on Friday to the New York Times, Giuliani said: \u201cThey say I was meddling in the election \u2013 ridiculous \u2013 but that\u2019s their spin.\u201d\n\nUnder the Logan Act of 1799, private individuals are barred from conducting diplomacy. The act is frequently brought up in political argument. Trump cited it this week, in saying former secretary of state John Kerry should be prosecuted for his actions in regard to the Iran nuclear deal. No one has ever been convicted under it.\n\nIn the Times\u2019 original report about the Kiev visit, Giuliani said: \u201cWe\u2019re not meddling in an election, we\u2019re meddling in an investigation, which we have a right to do.\u201d\n\nAll the president\u2019s judges: how Trump can flip courts at a record-setting pace Read more\n\nGiuliani also told the Times he thought there would be \u201cnothing illegal\u201d about the trip.\n\n\u201cSomebody could say it\u2019s improper,\u201d he said. \u201cAnd this isn\u2019t foreign policy \u2013 I\u2019m asking them to do an investigation that they\u2019re doing already and that other people are telling them to stop. And I\u2019m going to give them reasons why they shouldn\u2019t stop it because that information will be very, very helpful to my client, and may turn out to be helpful to my government.\u201d\n\nOn Friday, Giuliani asked Democratic senator Chris Murphy, a fierce critic, to \u201cexplain to me why Biden shouldn\u2019t be investigated\u201d. He also accused Democrats of \u201cinterfering\u201d.\n\nJerrod Nadler, the Democratic chair of the House judiciary committee and a prominent figure in investigations of the Trump administration, said US politics must be in \u201ca sorry state\u201d if the president\u2019s lawyer was seeking foreign help.",
+        "url": "https://www.theguardian.com/us-news/2019/may/11/rudy-giuliani-trump-ukraine",
+        "related_articles": {
+            "https://www.cbsnews.com/news/rudy-giuliani-says-he-is-no-longer-traveling-to-ukraine/": {
+                "title": "<b>Rudy Giuliani says</b> he <b>is</b> no longer traveling to <b>Ukraine</b>",
+                "url": "https://www.cbsnews.com/news/rudy-giuliani-says-he-is-no-longer-traveling-to-ukraine/",
+                "description": "Democrats had denounced <b>his</b> plan to push <b>Ukraine</b> to open investigations that he hoped could benefit President Trump politically",
+                "keywords": "longer traveling to ukraine,president trump,rudy giuliani,democrats",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-11T11:21:09",
+                "provider": {
+                    "name": "cbsnews"
+                },
+                "image": {
+                    "url": "https://cbsnews1.cbsistatic.com/hub/i/r/2019/04/21/670e6f74-5785-4205-b2c6-9a876528cee9/thumbnail/1200x630g1/ed2fcd85536bf3ee0b0743560dd9cb87/gettyimages-963760790.jpg",
+                    "height": 630,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=5069058488989173074",
+                    "thumbnailHeight": 157,
+                    "thumbnailWidth": 299,
+                    "base64Encoding": null
+                }
+            },
+            "https://www.rferl.org/a/trump-s-personal-lawyer-cancels-plans-to-visit-ukraine/29934590.html": {
+                "title": "Trump's Personal Lawyer Cancels Plans To <b>Visit Ukraine</b>",
+                "url": "https://www.rferl.org/a/trump-s-personal-lawyer-cancels-plans-to-visit-ukraine/29934590.html",
+                "description": "U.S. President Donald Trump's attorney, <b>Rudy Giuliani</b>, <b>says</b> he <b>is</b> canceling plans to <b>v<b>is</b>it Ukraine</b> to encourage investigations by the country\u2019s incoming government that he thinks would help Trump...",
+                "keywords": "plans to visit ukraine to,president donald trump,u.s",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-11T08:06:05",
+                "provider": {
+                    "name": "rferl"
+                },
+                "image": {
+                    "url": "https://gdb.rferl.org/62335E73-770C-4107-9093-AE1914FB1547_w1200_r1_s.jpg",
+                    "height": 675,
+                    "width": 1200,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=823276124344364049",
+                    "thumbnailHeight": 252,
+                    "thumbnailWidth": 448,
+                    "base64Encoding": null
+                }
+            },
+            "https://nypost.com/2019/05/11/rudy-giuliani-now-says-hes-canceling-trip-to-ukraine/": {
+                "title": "<b>Rudy Giuliani</b> now <b>says</b> he's canceling trip to <b>Ukraine</b>",
+                "url": "https://nypost.com/2019/05/11/rudy-giuliani-now-says-hes-canceling-trip-to-ukraine/",
+                "description": "<b>Rudy Giuliani</b> said that he\u2019s canceled <b>his</b> trip to <b>Ukraine</b>, where he had planned to urge the president-elect to continue the country's probes into two matters that could benefit President Trump's reelection campaign.",
+                "keywords": "trip to ukraine,rudy giuliani,trump",
+                "language": "en",
+                "isSafe": true,
+                "datePublished": "2019-05-11T04:56:59",
+                "provider": {
+                    "name": "nypost"
+                },
+                "image": {
+                    "url": "https://thenypost.files.wordpress.com/2019/05/giuliani_getty.jpg?quality=90&amp;strip=all&amp;w=1200",
+                    "height": 1333,
+                    "width": 2000,
+                    "thumbnail": "https://contextualwebsearch.com/api/thumbnail/get?value=6061747756383021741",
+                    "thumbnailHeight": 249,
+                    "thumbnailWidth": 373,
+                    "base64Encoding": null
+                }
+            }
+        }
+    },
+    "Rudy Giuliani says his controversial pro-Trump Ukraine visit is off": {
+        "IBM": [
+            {
+                "score": 0.514677,
+                "tone_id": "sadness",
+                "tone_name": "Sadness"
+            },
+            {
+                "score": 0.514999,
+                "tone_id": "anger",
+                "tone_name": "Anger"
+            }
+        ],
+        "aylien": {
+            "polarity": "negative",
+            "subjectivity": "subjective",
+            "text": "Rudy Giuliani has said his controversial planned visit to Ukraine will not go ahead, because of concerns about who he would be meeting.\n\nThere are many reasons not to impeach Trump. The House should do it anyway | Robert Reich Read more\n\nEarlier this week, the former New York mayor who is now an attorney for Donald Trump said he planned to push Ukraine to pursue investigations he hoped could benefit the president politically.\n\nBut on Friday night Giuliani told Fox News he would not go to Kiev after all, because he would be \u201cwalking into a group of people that are enemies of the president ... in some cases enemies of the United States\u201d.\n\nCiting \u201ca person familiar with the conversations\u201d, the New York Times said the Ukrainian president-elect, Volodymyr Zelensky, was urged by advisers not to meet Giuliani.\n\nGiuliani told Fox he was \u201cconvinced from what I\u2019ve heard from two very reliable people tonight that the president is surrounded by people who are enemies\u201d of Trump.\n\nEarlier, Giuliani used Twitter to seek to explain his rationale for a trip in which he said he would push for two investigations.\n\nOne regards the origin of special counsel Robert Mueller\u2019s investigation into Russian interference in the 2016 US election, under which Trump was not found to have conspired with Moscow but which left to Congress the question of whether he obstructed justice.\n\nThe other regards the involvement of Hunter Biden, son of the 2020 Democratic hopeful Joe Biden, in a gas company owned by a Ukrainian oligarch.\n\nDemocrats denounced what they said was an overt attempt to recruit foreign help to influence a US election.\n\nSpeaking on Friday to the New York Times, Giuliani said: \u201cThey say I was meddling in the election \u2013 ridiculous \u2013 but that\u2019s their spin.\u201d\n\nUnder the Logan Act of 1799, private individuals are barred from conducting diplomacy. The act is frequently brought up in political argument. Trump cited it this week, in saying former secretary of state John Kerry should be prosecuted for his actions in regard to the Iran nuclear deal. No one has ever been convicted under it.\n\nIn the Times\u2019 original report about the Kiev visit, Giuliani said: \u201cWe\u2019re not meddling in an election, we\u2019re meddling in an investigation, which we have a right to do.\u201d\n\nAll the president\u2019s judges: how Trump can flip courts at a record-setting pace Read more\n\nGiuliani also told the Times he thought there would be \u201cnothing illegal\u201d about the trip.\n\n\u201cSomebody could say it\u2019s improper,\u201d he said. \u201cAnd this isn\u2019t foreign policy \u2013 I\u2019m asking them to do an investigation that they\u2019re doing already and that other people are telling them to stop. And I\u2019m going to give them reasons why they shouldn\u2019t stop it because that information will be very, very helpful to my client, and may turn out to be helpful to my government.\u201d\n\nOn Friday, Giuliani asked Democratic senator Chris Murphy, a fierce critic, to \u201cexplain to me why Biden shouldn\u2019t be investigated\u201d. He also accused Democrats of \u201cinterfering\u201d.\n\nJerrod Nadler, the Democratic chair of the House judiciary committee and a prominent figure in investigations of the Trump administration, said US politics must be in \u201ca sorry state\u201d if the president\u2019s lawyer was seeking foreign help.",
+            "polarity_confidence": 0.5371658802032471,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://www.cbsnews.com/news/rudy-giuliani-says-he-is-no-longer-traveling-to-ukraine/": {
+        "title": "Rudy Giuliani says he is no longer traveling to Ukraine",
+        "authors": [],
+        "publishDate": "None",
+        "text": "Democrats denounced a plan by President Trump's personal attorney to push Ukraine to open investigations that he hopes could benefit Mr. Trump politically, decrying it as an overt attempt to recruit foreign help to influence a U.S. election. But Rudy Giuliani said late Friday he does not plan to go to Ukraine because of concerns about who he would be dealing with there.\n\nGiuliani told told Fox News Friday night he was not going to go because he thinks he would be \"walking into a group of people that are enemies of the president ... in some cases enemies of the United States.\"\n\nHis comments marked a reversal of his plans to travel to the country, which were first reported by The New York Times on Thursday. He had told the publication he planned to ask Ukraine's new president, Volodymyr Zelensky, to look into the origins of special counsel Robert Mueller's Russia investigation, as well as former Vice President Joe Biden's son's past connections to the country.\n\nHe said it was his right to travel to Ukraine to \"defend\" his client -- to try to push for investigations that he thinks could be \"very helpful\" to the president.\n\nHe used Twitter on Friday to explain his rationale, writing to Democratic Sen. Chris Murphy to \"explain to me why Biden shouldn't be investigated\" and accused Democrats of \"interfering.\"\n\nHis statement later on Friday left many unanswered questions about what Giuliani might do about his Ukraine concerns.\n\nCBS News' Emily Tillett contributed to this report.",
+        "url": "https://www.cbsnews.com/news/rudy-giuliani-says-he-is-no-longer-traveling-to-ukraine/"
+    },
+    "Rudy Giuliani says he is no longer traveling to Ukraine": {
+        "IBM": [
+            {
+                "score": 0.519483,
+                "tone_id": "anger",
+                "tone_name": "Anger"
+            },
+            {
+                "score": 0.73225,
+                "tone_id": "tentative",
+                "tone_name": "Tentative"
+            },
+            {
+                "score": 0.757817,
+                "tone_id": "analytical",
+                "tone_name": "Analytical"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "Democrats denounced a plan by President Trump's personal attorney to push Ukraine to open investigations that he hopes could benefit Mr. Trump politically, decrying it as an overt attempt to recruit foreign help to influence a U.S. election. But Rudy Giuliani said late Friday he does not plan to go to Ukraine because of concerns about who he would be dealing with there.\n\nGiuliani told told Fox News Friday night he was not going to go because he thinks he would be \"walking into a group of people that are enemies of the president ... in some cases enemies of the United States.\"\n\nHis comments marked a reversal of his plans to travel to the country, which were first reported by The New York Times on Thursday. He had told the publication he planned to ask Ukraine's new president, Volodymyr Zelensky, to look into the origins of special counsel Robert Mueller's Russia investigation, as well as former Vice President Joe Biden's son's past connections to the country.\n\nHe said it was his right to travel to Ukraine to \"defend\" his client -- to try to push for investigations that he thinks could be \"very helpful\" to the president.\n\nHe used Twitter on Friday to explain his rationale, writing to Democratic Sen. Chris Murphy to \"explain to me why Biden shouldn't be investigated\" and accused Democrats of \"interfering.\"\n\nHis statement later on Friday left many unanswered questions about what Giuliani might do about his Ukraine concerns.\n\nCBS News' Emily Tillett contributed to this report.",
+            "polarity_confidence": 0.5275524258613586,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://www.rferl.org/a/trump-s-personal-lawyer-cancels-plans-to-visit-ukraine/29934590.html": {
+        "title": "Trump's Personal Lawyer Cancels Plans To Visit Ukraine",
+        "authors": [],
+        "publishDate": "None",
+        "text": "U.S. President Donald Trump's personal attorney, Rudy Giuliani, says he is canceling plans to visit Ukraine to encourage investigations by the country\u2019s incoming government that he thinks would help Trump politically.\n\n\n\nSpeaking on the U.S. television channel Fox News, Giuliani said late on May 10 that he was not going because he thinks he would be \"walking into a group of people that are enemies of the president...in some cases enemies of the United States.\"\n\n\n\nDemocrats have criticized Giuliani\u2019s plans to visit Ukraine over the weekend after The New York Times quoted Giuliani as saying he wanted to encourage two investigations by the government of incoming President Volodymyr Zelenskiy.\n\n\n\nOne is the origin of U.S. Special Counsel Robert Mueller's investigation into Russian election interference and the other is the involvement of 2020 Democratic presidential hopeful Joe Biden's son in a gas company owned by a Ukrainian oligarch.\n\n\n\nDemocratic congressman Jerry Nadler, the head of the House Judiciary Committee, said U.S. politics is in \"a sorry state\" if the president's lawyer can seek foreign interference in a U.S. election.\n\n\n\nUkraine\u2019s president-elect defeated incumbent President Petro Poroshenko in an April 21 runoff election and is scheduled to be inaugurated in early June.\n\nBased on reporting by AP, Reuters, Fox News, and The New York Times",
+        "url": "https://www.rferl.org/a/trump-s-personal-lawyer-cancels-plans-to-visit-ukraine/29934590.html"
+    },
+    "Trump's Personal Lawyer Cancels Plans To Visit Ukraine": {
+        "IBM": [
+            {
+                "score": 0.510172,
+                "tone_id": "sadness",
+                "tone_name": "Sadness"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "U.S. President Donald Trump's personal attorney, Rudy Giuliani, says he is canceling plans to visit Ukraine to encourage investigations by the country\u2019s incoming government that he thinks would help Trump politically.\n\n\n\nSpeaking on the U.S. television channel Fox News, Giuliani said late on May 10 that he was not going because he thinks he would be \"walking into a group of people that are enemies of the president...in some cases enemies of the United States.\"\n\n\n\nDemocrats have criticized Giuliani\u2019s plans to visit Ukraine over the weekend after The New York Times quoted Giuliani as saying he wanted to encourage two investigations by the government of incoming President Volodymyr Zelenskiy.\n\n\n\nOne is the origin of U.S. Special Counsel Robert Mueller's investigation into Russian election interference and the other is the involvement of 2020 Democratic presidential hopeful Joe Biden's son in a gas company owned by a Ukrainian oligarch.\n\n\n\nDemocratic congressman Jerry Nadler, the head of the House Judiciary Committee, said U.S. politics is in \"a sorry state\" if the president's lawyer can seek foreign interference in a U.S. election.\n\n\n\nUkraine\u2019s president-elect defeated incumbent President Petro Poroshenko in an April 21 runoff election and is scheduled to be inaugurated in early June.\n\nBased on reporting by AP, Reuters, Fox News, and The New York Times",
+            "polarity_confidence": 0.7565251588821411,
+            "subjectivity_confidence": 1.0
+        }
+    },
+    "https://nypost.com/2019/05/11/rudy-giuliani-now-says-hes-canceling-trip-to-ukraine/": {
+        "title": "Rudy Giuliani now says he\u2019s canceling trip to Ukraine",
+        "authors": [
+            "May"
+        ],
+        "publishDate": "2019-05-11 00:00:00",
+        "text": "Rudy Giuliani said Friday that he\u2019s canceled his trip to Ukraine, where he had planned to urge the president-elect to continue the country\u2019s probes into two matters that could benefit President Trump\u2019s reelection campaign.\n\nGiuliani announced the reversal during an interview on Fox News, saying he didn\u2019t want to give the impression of meddling in the 2020 election \u2014 but calling that suggestion a \u201cset up.\u201d\n\n\u201cI believe I was walking into a bunch of people, one of whom was already found to be involved on this, and I think this was a set up. The whole thing, by the way, is a set up,\u201d Giuliani said.\n\n\u201cI will get out of it in order to remove any political suggestion I will step back and I\u2019ll just watch it unfold,\u201d he added.\n\nThe former mayor had told The New York Times that he planned to encourage a Ukrainian probe into Hunter Biden, the son of 2020 Democratic presidential candidate former Vice President Joe Biden.\n\nThat probe centers on business payments made to Hunter by a Ukrainian oligarch, and whether the former vice president was involved in removing a prosecutor whose office was in charge of a resulting investigation.\n\nHe said he also planned to urge the continuation of another probe into whether Ukrainian officials tried to benefit Hillary Clinton\u2019s 2016 campaign by targeting Paul Manafort\u2019s business dealings in the country.\n\n\u201cWe\u2019re not meddling in an election, we\u2019re meddling in an investigation, which we have a right to do,\u201d Giuliani had told The New York Times about the trip. \u201cThere\u2019s nothing illegal about it.\u201d",
+        "url": "https://nypost.com/2019/05/11/rudy-giuliani-now-says-hes-canceling-trip-to-ukraine/"
+    },
+    "Rudy Giuliani now says he\u2019s canceling trip to Ukraine": {
+        "IBM": [
+            {
+                "score": 0.719825,
+                "tone_id": "tentative",
+                "tone_name": "Tentative"
+            }
+        ],
+        "aylien": {
+            "polarity": "neutral",
+            "subjectivity": "subjective",
+            "text": "Rudy Giuliani said Friday that he\u2019s canceled his trip to Ukraine, where he had planned to urge the president-elect to continue the country\u2019s probes into two matters that could benefit President Trump\u2019s reelection campaign.\n\nGiuliani announced the reversal during an interview on Fox News, saying he didn\u2019t want to give the impression of meddling in the 2020 election \u2014 but calling that suggestion a \u201cset up.\u201d\n\n\u201cI believe I was walking into a bunch of people, one of whom was already found to be involved on this, and I think this was a set up. The whole thing, by the way, is a set up,\u201d Giuliani said.\n\n\u201cI will get out of it in order to remove any political suggestion I will step back and I\u2019ll just watch it unfold,\u201d he added.\n\nThe former mayor had told The New York Times that he planned to encourage a Ukrainian probe into Hunter Biden, the son of 2020 Democratic presidential candidate former Vice President Joe Biden.\n\nThat probe centers on business payments made to Hunter by a Ukrainian oligarch, and whether the former vice president was involved in removing a prosecutor whose office was in charge of a resulting investigation.\n\nHe said he also planned to urge the continuation of another probe into whether Ukrainian officials tried to benefit Hillary Clinton\u2019s 2016 campaign by targeting Paul Manafort\u2019s business dealings in the country.\n\n\u201cWe\u2019re not meddling in an election, we\u2019re meddling in an investigation, which we have a right to do,\u201d Giuliani had told The New York Times about the trip. \u201cThere\u2019s nothing illegal about it.\u201d",
+            "polarity_confidence": 0.5314079523086548,
+            "subjectivity_confidence": 1.0
+        }
     }
 }
