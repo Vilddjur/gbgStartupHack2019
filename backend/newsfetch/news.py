@@ -3,7 +3,7 @@
 import requests
 import json
 import logging
-import pdb
+import sys
 
 news_key='1b89d91f976447cb89c3310dda3143ec'
 OK=200
@@ -54,5 +54,7 @@ def get_related_articles(query, log=False):
 
 
 if __name__ == '__main__':
-    print(get_related_articles('Trump tramples and divides world, just like he does at home'))
-    print(get_related_articles('Trump tariffs'))
+    if len(sys.argv) != 2:
+        print("Wrong number of arguments!\nUsage: ./news.py \'query_string\'")
+        sys.exit(1)
+    print(get_related_articles(sys.argv[1]))

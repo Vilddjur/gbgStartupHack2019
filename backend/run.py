@@ -93,8 +93,9 @@ def sort_sentiments(source, related_articles):
     Args:
         source: Sentiment of
     """
+    #(score, article)
     for article in related_articles:
-        pass
+        score = 0
     return list(related_articles.keys())
 
 
