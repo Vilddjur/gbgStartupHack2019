@@ -2,3 +2,4 @@ flask==1.0.2
 newspaper3k
 aylien-apiclient
 ibm-watson>=3.0.3
+jinja
