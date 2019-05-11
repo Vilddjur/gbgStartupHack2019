@@ -2,7 +2,7 @@
 
 import requests
 
-new_key='1b89d91f976447cb89c3310dda3143ec'
+news_key='1b89d91f976447cb89c3310dda3143ec'
 OK=200
 
 
@@ -27,7 +27,7 @@ def get_related_articles(source_url):
     query = title
     req = ('https://newsapi.org/v2/everything?'
             'q='+query+'&'
-            'apiKey='+new_key)
+            'apiKey='+news_key)
 
     print(req)
     res = requests.get(req)
