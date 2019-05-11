@@ -10,6 +10,8 @@ from sental.sentimental_analyzer import SentimentalAnalyzer
 from testing_stuff import mock
 from newsfetch import news
 
+ARTICLES_CACHE='articles_caching.json'
+
 
 app = flask.Flask(__name__)
 
@@ -124,8 +126,16 @@ def coffee():
 
     source_article = dict()
     related_articles = list()
+   
+    try:
+        with open(ARTICLES_CACHE, 'r') as articles:
+            pass
+    except Exception:
+        with open(ARTICLES_CACHE, 'w+') as f_h:
+            f_h.write('{}\n')
 
-    with open('articles_caching.json') as f_h:
+    # Fetch article from cache or web.
+    with open(ARTICLES_CACHE) as f_h:
         cached_articles = json.load(f_h)
     if url not in cached_articles:
         print('ARTICLE_CACHE_MISS: {}'.format(url))
@@ -134,12 +144,13 @@ def coffee():
 
         source_article.update({'related_articles': get_related_articles(query)})
         cached_articles.update({url: source_article})
-        with open('articles_caching.json', 'w') as f_h:
+        with open(ARTICLES_CACHE, 'w') as f_h:
             json.dump(cached_articles, f_h, indent=4)
     else:
         print('ARTICLE_CACHE_HIT: {}'.format(url))
         source_article = cached_articles[url]
 
+    # Fetch article sentiment from cache or web.
     source_sentiment = dict()
     if source_article['title'] not in cached_articles:
         print('SENTIMENT_CACHE_MISS: {}'.format(source_article['title']))
@@ -149,26 +160,39 @@ def coffee():
         print('SENTIMENT_CACHE_HIT: {}'.format(source_article['title']))
         source_sentiment = cached_articles[source_article['title']]
 
+    # Pair sentiment and articles?
     sentiments = dict()
+    missing = [] # Not sure why it doesn't work without this but...
     for related_url in source_article['related_articles']:
+        if related_url == url:
+            missing.append(related_url)
+            continue
         article = dict()
+
+        # Update cache.
         if related_url not in cached_articles:
             print('ARTICLE_CACHE_MISS: {}'.format(related_url))
             try:
                 article = parse_article(related_url)
-            except:
+            except Exception:
+                print("ARTICLE PARSING FAILURE")
+                missing.append(related_url)
                 continue
             query = article['title']
 
-            article.update({'related_articles': get_related_articles(query)})
+            #article.update({'related_articles': get_related_articles(query)})
             cached_articles.update({related_url: article})
-            with open('articles_caching.json', 'w') as f_h:
+            with open(ARTICLES_CACHE, 'w') as f_h:
                 json.dump(cached_articles, f_h, indent=4)
         else:
             print('ARTICLE_CACHE_HIT: {}'.format(related_url))
             article = cached_articles[related_url]
 
-        if article['title'] not in cached_articles:
+        # Remove 404 articles.
+        if related_url in missing:
+            continue;
+        
+        if article['title'] not in cached_articles and article['text'] != None:
             print('SENTIMENT_CACHE_MISS: {}'.format(article['title']))
             sentiments[related_url] = get_sentiment(article['text'])
             cached_articles.update({article['title']: sentiments[related_url]})
