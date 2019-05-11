@@ -2,8 +2,11 @@
 
 import flask
 import json
+import newspaper
 
 from sental.sentimental_analyser import SentimentalAnalyser
+from testing_stuff import mock
+import newsfetch.news
 
 
 app = flask.Flask(__name__)
@@ -24,81 +27,62 @@ def get_related_articles(url):
 
     Return: list[str]
     """
-    raise NotImplementedError
+    return news.get_related_articles(url)
 
 
-def get_article_text(url):
+def parse_article(url):
     """
     Given a URL, return the article text
 
-    Return: str
+    Return: dict
     """
-    raise NotImplementedError
+    article = newspaper.Article(url)
+    article.download()
+    article.parse()
+
+    return {
+        'authors': article.authors,
+        'publishDate': article.publish_date,
+        'text': article.text
+    }
 
 
-def get_sentiment(text):
+def get_sentiment(text, api='IBM'):
     """
     Given text, return sentiments
-    
+
     Arguments:
         text(str): string with article content
+        api(str): Which api to use IBM/aylien,
+                    WARNING: changes dictionary structure
 
     Return:
-        dict: 
+        api == IBM:
             {
-                'polarity': 'positive/neutral/negative',
-                'subjectivity': 'subjective/objective',
-                'text': 'analysed text',
-                'polarity_confidence': 0.0 - 1.0,
-                'subjectivity_confidence': 0.0 - 1.0
+                'document_tone': {
+                    'tones': [{
+                        'score': 0.673332,
+                        'tone_id': 'joy',
+                        'tone_name': 'Joy'
+                    }]
+                }
             }
+        
+        api == aylient:
+            dict: 
+                {
+                    'polarity': 'positive/neutral/negative',
+                    'subjectivity': 'subjective/objective',
+                    'text': 'analysed text',
+                    'polarity_confidence': 0.0 - 1.0,
+                    'subjectivity_confidence': 0.0 - 1.0
+                }
     """
-    sent_al = SentimentalAnalyser()
+    sent_al = SentimentalAnalyser(api)
     sentiment = sent_al.get_sentiment(text)
+
     return sentiment
 
-
-def mock():
-    tone = {
-        'anger': 0.55,
-        'fear': 0.0,
-        'joy': 0.6,
-        'sadness': 0.1,
-        'analytical': 0.42,
-        'confident': 0.0,
-        'tentative': 0.7,
-    }
-
-    article1 = {
-        'source': 'TechCrunch',
-        'title': 'India’s most popular services are becoming super apps',
-        'url': 'https://techcrunch.com/2019/05/10/india-super-apps/',
-        'tone': tone,
-    }
-
-    article2 = {
-        'source': 'BBC',
-        'title': ('US sends Patriot missile system to Middle East amid Iran '
-                  'tensions'),
-        'url': 'https://www.bbc.com/news/world-us-canada-48235940',
-        'tone': tone,
-    }
-
-    article3 = {
-        'source': 'Guardian',
-        'title': ('Nearly all countries agree to stem flow of plastic waste '
-                  'into poor nations'),
-        'url': ('https://www.theguardian.com/environment/2019/may/10/nearly-al'
-                'l-the-worlds-countries-sign-plastic-waste-deal-except-us'),
-        'tone': tone,
-    }
-
-    response = {
-        'currentArticle': article3,
-        'relatedArticles': [article1, article2],
-    }
-
-    return json.dumps(response)
 
 
 @app.route('/')
@@ -106,8 +90,22 @@ def index():
     return 'Hello world'
 
 
+@app.route('/api/coffee', methods=['POST'])
+def coffee():
+    """
+    Production endpoint.
+    """
+    url = request.form.get('url')
+
+    article = parse_article(url)
+    sentiment = get_sentiment(article['text'])
+
+
 @app.route('/api/beer', methods=['POST'])
 def beer():
+    """
+    Mock endpoint. FOR TESTING.
+    """
     return mock()
 
 
