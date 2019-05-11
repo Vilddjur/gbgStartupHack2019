@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 
 new_key='1b89d91f976447cb89c3310dda3143ec'
@@ -13,7 +15,13 @@ def get_querystring(source_url):
 
 def get_related_articles(source_url):
     """
-    Returns a list of urls to related articles sorted by sentiment.
+    Returns a list of urls to related to the source article.
+
+    Args:
+        source_url: String url specifying what a web article to match.
+
+    Return:
+        list of url strings [str]
     """
     title = 'bitcoin'
     query = title
@@ -34,10 +42,6 @@ def get_related_articles(source_url):
         for article in articles:
             #print("URL: " % article['url'])
             urls.append(article['url'])
-
-    for url in urls:
-        #article = extract_article(url)
-        #sentiment = sentiment(article)
 
     return urls
 
