@@ -3,8 +3,9 @@
 import flask
 import json
 import newspaper
-from flask import request
+import jinja2
 
+from flask import request, abort
 from sental.sentimental_analyzer import SentimentalAnalyzer
 from testing_stuff import mock
 from newsfetch import news
@@ -114,7 +115,11 @@ def coffee():
     """
     Production endpoint.
     """
-    url = request.form.get('url')
+    templ = jinja2.Template(open('template.j', 'r').read())
+    url = request.form.get('url', None)
+
+    if not url:
+        abort(400)
 
     source_article = dict()
     related_articles = list()
@@ -178,7 +183,14 @@ def coffee():
         "currentArticle" : "",
         "relatedArticles": rank_related_arts
     }
-    return news.news_to_html(ret)
+
+    template_sentiments = dict()
+    for item in source_sentiment['IBM']:
+        template_sentiments[item['tone_name']] = item['score']
+
+    return templ.render(template_sentiments=template_sentiments)
+
+    #return news.news_to_html(ret)
 
 
 @app.route('/api/beer', methods=['POST'])
