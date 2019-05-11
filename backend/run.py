@@ -66,6 +66,17 @@ def get_sentiment(text, api='IBM'):
                         'tone_name': 'Joy'
                     }]
                 }
+                "sentences_tone": [{
+                    "sentence_id": 0,
+                    "text": "President Donald Trump on Friday issued a sta.....",
+        may not be removed\" while trade talks continue.",
+                    "tones": [{
+                            "score": 0.802155,
+                            "tone_id": "tentative",
+                            "tone_name": "Tentative"
+                        }
+                    ]
+                }
             }
         
         api == aylient:
