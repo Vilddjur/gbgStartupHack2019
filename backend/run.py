@@ -178,7 +178,6 @@ def coffee():
     rank_related_arts = []
     for art in ranked_articles:
         rank_related_arts.append(source_article['related_articles'][art])
-    print(rank_related_arts)
     ret = {
         "currentArticle" : "",
         "relatedArticles": rank_related_arts
@@ -188,7 +187,7 @@ def coffee():
     for item in source_sentiment['IBM']:
         template_sentiments[item['tone_name']] = item['score']
 
-    return templ.render(template_sentiments=template_sentiments)
+    return templ.render(template_sentiments=template_sentiments, template_articles=rank_related_arts)
 
     #return news.news_to_html(ret)
 
