@@ -8,33 +8,31 @@
 */
 
 function li_from_news_obj(o){
-  var html ="<li class='single-news-item'>";
-//  html.concat("<img class='news-image' src='"+ o.image_url + "' />");
-  html.concat("<h3 class='news-title'><a href='"+o.url+"'>" + o.title + "</a></h3>");
+  var ret ="<li class='single-news-item'>";
+  //ret.concat("<img class='news-image' src='"+ o.image_url + "' />");
+  ret += "<h3 class='news-title'><a href='"+o["url"]+"'>" + o["title"] + "</a></h3>";
   //TODO: add tones
-  html.concat("</li>");
-  return html;
+  ret += "</li>";
+  return ret;
 }
 
 /*
 TODO: add parameter
 */
 function fetch_related_articles(){
-  alert("starting fetch");
-  $.post("http://localhost:8080/api/beer", function ( data ) {
+  $.post( "http://localhost:8080/api/beer", { article: "asdf" }, function( data ) {
     current = data["currentArticle"];
     related = data["relatedArticles"];
     res = "";
-    alert("asdasd");
-    for(var news in related){
-      res += li_from_news_obj(news);
+    for(var id in related){
+      console.log(related[id]);
+      res += li_from_news_obj(related[id]);
     }
-    alert(res);
+    $("#results").html(res);
 
-  }, 'application/json');
+  }, "json");
 }
 
 $(document).ready(function (){
-  //alert("1");
-  //fetch_related_articles();
+  fetch_related_articles();
 });
