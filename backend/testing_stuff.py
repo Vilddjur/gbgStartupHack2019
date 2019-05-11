@@ -1,15 +1,6 @@
 import json
+from newsfetch import news
 
-def news_to_html(news):
-    ret ="<ul class='news-results'>"
-    for art in news["relatedArticles"]:
-        ret +="<li class='single-news-item'>"
-        ret += "<img class='news-image' src='"+ art["urlToImage"] + "' />"
-        ret += "<h3 class='news-title'><a href='"+art["url"]+"'>" + art["title"] + "</a></h3>"
-        #TODO: add tones
-        ret += "</li>"
-    ret += "</ul>"
-    return ret
 
 def mock():
     tone = {
@@ -57,4 +48,4 @@ def mock():
         'relatedArticles': [article1, article2],
     }
 
-    return news_to_html(response)
+    return news.news_to_html(response)

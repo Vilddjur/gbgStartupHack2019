@@ -7,6 +7,16 @@ import logging
 news_key='1b89d91f976447cb89c3310dda3143ec'
 OK=200
 
+def news_to_html(news):
+    ret ="<ul class='news-results'>"
+    for art in news["relatedArticles"]:
+        ret +="<li class='single-news-item'>"
+        ret += "<img class='news-image' src='"+ art["urlToImage"] + "' />"
+        ret += "<h3 class='news-title'><a href='"+art["url"]+"'>" + art["title"] + "</a></h3>"
+        #TODO: add tones
+        ret += "</li>"
+    ret += "</ul>"
+    return ret
 
 def get_related_articles(query, log=False):
     """
@@ -26,7 +36,7 @@ def get_related_articles(query, log=False):
     res = requests.get(req)
     logprint("Response status %i" % res.status_code)
 
-    urls = []
+    urls = {}
     if res.status_code == OK:
         body = res.json()
         if log:
@@ -37,7 +47,7 @@ def get_related_articles(query, log=False):
         logprint("Found %i articles." % len(articles))
 
         for article in articles:
-            urls.append(article['url'])
+            urls[article['url']] = article
 
     return urls
 

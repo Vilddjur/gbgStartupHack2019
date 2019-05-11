@@ -90,11 +90,11 @@ def sort_sentiments(source, related_articles):
     compared with source article.
 
     Args:
-        source: Sentiment of 
+        source: Sentiment of
     """
     for article in related_articles:
         pass
-    return list(related.keys())
+    return list(related_articles.keys())
 
 
 @app.route('/')
@@ -119,7 +119,7 @@ def coffee():
     source_article = parse_article(url)
     query = source_article['title']
     related_articles = get_related_articles(query)
-
+    print(related_articles)
     source_sentiment = get_sentiment(source_article['text'])
     sentiments = {}
     for related_url in related_articles:
@@ -127,7 +127,15 @@ def coffee():
         sentiments[article['url']] = 1#get_sentiment(article['text'])
 
     ranked_articles = sort_sentiments(source_sentiment, sentiments)
-    return '\n'.join(ranked_articles)+'\n'
+    rank_related_arts = []
+    for art in ranked_articles:
+        rank_related_arts.append(related_articles[art])
+    print(rank_related_arts)
+    ret = {
+        "currentArticle" : "",
+        "relatedArticles": rank_related_arts
+    }
+    return news.news_to_html(ret)
 
 
 @app.route('/api/beer', methods=['POST'])
